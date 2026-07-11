@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source ../kapilos.conf
+
+echo ""
+echo "====================================="
+echo "        Welcome to $OS_NAME"
+echo "====================================="
+echo ""
+echo "Version    : $OS_VERSION"
+echo "Codename   : $CODENAME"
+echo "Base       : $BASE_DISTRO"
+echo "Desktop    : $DESKTOP"
+echo "Kernel     : $KERNEL"
+echo ""
+echo "KapilOS is under development 🚀"
+echo ""
