@@ -1,4 +1,6 @@
+#include "../ApplicationManager/ApplicationManager.h"
 #include "Desktop.h"
+#include "../WindowManager/WindowManager.h"
 #include <iostream>
 
 void Desktop::Start()
@@ -13,6 +15,10 @@ void Desktop::Start()
     std::cout << "[Desktop] Loading File Explorer...\n";
     std::cout << "[Desktop] Loading Settings...\n";
     std::cout << "[Desktop] Loading Applications...\n";
+    WindowManager wm;
+    wm.Start();
+    ApplicationManager app;
+    app.LoadApplications();
 
     std::cout << "\n";
 

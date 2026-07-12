@@ -153,6 +153,34 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s
 
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o: CMakeFiles/KapilOS.dir/flags.make
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o: /home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o -c /home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp > CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.i
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o: CMakeFiles/KapilOS.dir/flags.make
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o: /home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o -c /home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp > CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s
+
 # Object files for target KapilOS
 KapilOS_OBJECTS = \
 "CMakeFiles/KapilOS.dir/main.cpp.o" \
@@ -160,7 +188,9 @@ KapilOS_OBJECTS = \
 "CMakeFiles/KapilOS.dir/SystemInfo.cpp.o" \
 "CMakeFiles/KapilOS.dir/Logger.cpp.o" \
 "CMakeFiles/KapilOS.dir/Config.cpp.o" \
-"CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o"
+"CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o" \
+"CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o" \
+"CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o"
 
 # External object files for target KapilOS
 KapilOS_EXTERNAL_OBJECTS =
@@ -171,9 +201,11 @@ KapilOS: CMakeFiles/KapilOS.dir/SystemInfo.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/Logger.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/Config.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o
+KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o
+KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/build.make
 KapilOS: CMakeFiles/KapilOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable KapilOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable KapilOS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KapilOS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

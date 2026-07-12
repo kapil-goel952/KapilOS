@@ -225,6 +225,30 @@ Version.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Version.cpp.s
 .PHONY : Version.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.o: home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.i: home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.s: home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.o: home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.o
 
@@ -248,6 +272,30 @@ home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.s: home/kapil849/Projects/
 home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o: home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.i: home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.s: home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -294,9 +342,15 @@ help:
 	@echo "... Version.o"
 	@echo "... Version.i"
 	@echo "... Version.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

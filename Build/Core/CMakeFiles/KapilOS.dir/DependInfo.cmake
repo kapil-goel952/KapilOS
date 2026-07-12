@@ -12,7 +12,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kapil849/Projects/KapilOS/Source/Core/Logger.cpp" "CMakeFiles/KapilOS.dir/Logger.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/Logger.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Core/SystemInfo.cpp" "CMakeFiles/KapilOS.dir/SystemInfo.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/SystemInfo.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Core/Version.cpp" "CMakeFiles/KapilOS.dir/Version.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/Version.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Core/main.cpp" "CMakeFiles/KapilOS.dir/main.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/main.cpp.o.d"
   )
 
