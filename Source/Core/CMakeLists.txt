@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(KapilOS)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(KapilOS
+    main.cpp
+    Version.cpp
+    SystemInfo.cpp
+    Logger.cpp
+    Config.cpp
+    ../Desktop/Desktop.cpp
+)
