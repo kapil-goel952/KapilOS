@@ -273,6 +273,126 @@ home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.o: home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.i: home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.s: home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/GUI/GUI.o: home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/GUI/GUI.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/GUI/GUI.i: home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/GUI/GUI.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/GUI/GUI.s: home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/GUI/GUI.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o: home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.i: home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.s: home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Settings/Settings.o: home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Settings/Settings.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Settings/Settings.i: home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Settings/Settings.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Settings/Settings.s: home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Settings/Settings.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Shell/Shell.o: home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Shell/Shell.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Shell/Shell.i: home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Shell/Shell.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Shell/Shell.s: home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Shell/Shell.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o: home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o
 
@@ -348,6 +468,21 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/GUI/GUI.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/GUI/GUI.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/GUI/GUI.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Settings/Settings.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Settings/Settings.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Settings/Settings.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.s"

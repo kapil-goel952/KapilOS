@@ -5,6 +5,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp
  /home/kapil849/Projects/KapilOS/Source/Desktop/../ApplicationManager/ApplicationManager.h \
  /home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.h \
  /home/kapil849/Projects/KapilOS/Source/Desktop/../WindowManager/WindowManager.h \
+ /home/kapil849/Projects/KapilOS/Source/Desktop/../Settings/Settings.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

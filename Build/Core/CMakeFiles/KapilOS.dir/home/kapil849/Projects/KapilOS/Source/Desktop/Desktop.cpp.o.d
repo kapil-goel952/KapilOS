@@ -1,6 +1,8 @@
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o: \
  /home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp \
  /usr/include/stdc-predef.h \
+ /home/kapil849/Projects/KapilOS/Source/Desktop/../GUI/GUI.h \
+ /home/kapil849/Projects/KapilOS/Source/Desktop/../Graphics/Graphics.h \
  /home/kapil849/Projects/KapilOS/Source/Desktop/../ApplicationManager/ApplicationManager.h \
  /home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.h \
  /home/kapil849/Projects/KapilOS/Source/Desktop/../WindowManager/WindowManager.h \

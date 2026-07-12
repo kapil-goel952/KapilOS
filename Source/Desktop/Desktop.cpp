@@ -1,4 +1,5 @@
-#include "../FileExplorer/FileExplorer.h"
+#include "../GUI/GUI.h"
+#include "../Graphics/Graphics.h"
 #include "../ApplicationManager/ApplicationManager.h"
 #include "Desktop.h"
 #include "../WindowManager/WindowManager.h"
@@ -16,13 +17,20 @@ void Desktop::Start()
     std::cout << "[Desktop] Loading File Explorer...\n";
     std::cout << "[Desktop] Loading Settings...\n";
     std::cout << "[Desktop] Loading Applications...\n";
+    //Windows manager
     WindowManager wm;
     wm.Start();
+
+    //GUI
+    Graphics graphics;
+    graphics.Initialize();
+
+    GUI gui;
+    gui.Start();
+
+    //Application Manager
     ApplicationManager app;
     app.LoadApplications();
-    FileExplorer explorer;
-
-    explorer.Open();
 
     std::cout << "\n";
 

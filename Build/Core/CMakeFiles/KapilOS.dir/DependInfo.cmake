@@ -14,6 +14,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kapil849/Projects/KapilOS/Source/Core/Version.cpp" "CMakeFiles/KapilOS.dir/Version.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/Version.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Core/main.cpp" "CMakeFiles/KapilOS.dir/main.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/main.cpp.o.d"
   )

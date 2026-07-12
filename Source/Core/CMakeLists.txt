@@ -15,4 +15,9 @@ add_executable(KapilOS
     ../Desktop/Desktop.cpp
     ../WindowManager/WindowManager.cpp
     ../ApplicationManager/ApplicationManager.cpp
+    ../FileExplorer/FileExplorer.cpp
+    ../Settings/Settings.cpp
+    ../Shell/Shell.cpp
+    ../GUI/GUI.cpp
+    ../Graphics/Graphics.cpp
 )
