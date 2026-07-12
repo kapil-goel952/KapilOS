@@ -1,3 +1,4 @@
+#include "../FileExplorer/FileExplorer.h"
 #include "../ApplicationManager/ApplicationManager.h"
 #include "Desktop.h"
 #include "../WindowManager/WindowManager.h"
@@ -19,6 +20,9 @@ void Desktop::Start()
     wm.Start();
     ApplicationManager app;
     app.LoadApplications();
+    FileExplorer explorer;
+
+    explorer.Open();
 
     std::cout << "\n";
 

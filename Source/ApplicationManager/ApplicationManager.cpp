@@ -1,3 +1,4 @@
+#include "../FileExplorer/FileExplorer.h"
 #include "ApplicationManager.h"
 #include <iostream>
 
@@ -12,4 +13,5 @@ void ApplicationManager::LoadApplications()
     std::cout << "   ✓ About KapilOS\n";
 
     std::cout << "[Application Manager] Done.\n\n";
+
 }
