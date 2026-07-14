@@ -1,7 +1,7 @@
-CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o: \
- /home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp \
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o: \
+ /home/kapil849/Projects/KapilOS/Source/Window/Window.cpp \
  /usr/include/stdc-predef.h \
- /home/kapil849/Projects/KapilOS/Source/Desktop/../Window/Window.h \
+ /home/kapil849/Projects/KapilOS/Source/Window/Window.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -116,11 +116,6 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/kapil849/Projects/KapilOS/Source/Desktop/../GUI/GUI.h \
- /home/kapil849/Projects/KapilOS/Source/Desktop/../Graphics/Graphics.h \
- /home/kapil849/Projects/KapilOS/Source/Desktop/../ApplicationManager/ApplicationManager.h \
- /home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.h \
- /home/kapil849/Projects/KapilOS/Source/Desktop/../WindowManager/WindowManager.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \

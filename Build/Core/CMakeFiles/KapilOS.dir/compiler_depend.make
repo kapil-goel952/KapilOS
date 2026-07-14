@@ -2262,7 +2262,6 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/Windo
 
 CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/main.cpp \
   /home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.h \
-  /home/kapil849/Projects/KapilOS/Source/GUI/GUI.h \
   /home/kapil849/Projects/KapilOS/Source/Shell/Shell.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

@@ -4,9 +4,9 @@
 class Graphics
 {
 public:
-
-    void Initialize();
-
+    bool Initialize();
+    void Run();
+    void Shutdown();
 };
 
 #endif

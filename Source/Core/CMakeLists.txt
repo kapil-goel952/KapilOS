@@ -1,3 +1,4 @@
+
 cmake_minimum_required(VERSION 3.10)
 
 project(KapilOS)
@@ -20,4 +21,5 @@ add_executable(KapilOS
     ../Shell/Shell.cpp
     ../GUI/GUI.cpp
     ../Graphics/Graphics.cpp
+    ../Window/Window.cpp
 )

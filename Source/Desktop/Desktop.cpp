@@ -1,3 +1,4 @@
+#include "../Window/Window.h"
 #include "../GUI/GUI.h"
 #include "../Graphics/Graphics.h"
 #include "../ApplicationManager/ApplicationManager.h"
@@ -28,6 +29,11 @@ void Desktop::Start()
     GUI gui;
     gui.Start();
 
+    Window explorer("File Explorer");
+    Window settings("Settings");
+
+    explorer.Show();
+    settings.Show();
     //Application Manager
     ApplicationManager app;
     app.LoadApplications();

@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o.d"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o.d"
   "CMakeFiles/KapilOS.dir/main.cpp.o"

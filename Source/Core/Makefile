@@ -393,6 +393,30 @@ home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/Window/Window.o: home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Window/Window.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Window/Window.i: home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Window/Window.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Window/Window.s: home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Window/Window.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o: home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o
 
@@ -483,6 +507,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Window/Window.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Window/Window.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Window/Window.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.s"
