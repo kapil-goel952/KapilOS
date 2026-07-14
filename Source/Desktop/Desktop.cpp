@@ -23,8 +23,7 @@ void Desktop::Start()
     wm.Start();
 
     //GUI
-    Graphics graphics;
-    graphics.Initialize();
+
 
     GUI gui;
     gui.Start();

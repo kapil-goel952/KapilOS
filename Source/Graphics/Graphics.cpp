@@ -42,7 +42,6 @@ bool Graphics::Initialize()
 void Graphics::Run()
 {
     bool running = true;
-
     SDL_Event event;
 
     while (running)
@@ -50,14 +49,18 @@ void Graphics::Run()
         while (SDL_PollEvent(&event))
         {
             if (event.type == SDL_QUIT)
+            {
                 running = false;
+            }
         }
 
         SDL_SetRenderDrawColor(renderer, 30, 30, 35, 255);
-
         SDL_RenderClear(renderer);
-
         SDL_RenderPresent(renderer);
+
+        DrawDesktop();
+
+        SDL_Delay(16);   // ~60 FPS
     }
 }
 
@@ -67,4 +70,62 @@ void Graphics::Shutdown()
     SDL_DestroyWindow(window);
 
     SDL_Quit();
+}
+
+void Graphics::DrawDesktop()
+{
+    // Wallpaper
+    SDL_SetRenderDrawColor(renderer, 25, 80, 180, 255);
+
+    SDL_Rect wallpaper =
+    {
+        0,
+        0,
+        1280,
+        720
+    };
+
+    SDL_RenderFillRect(renderer, &wallpaper);
+
+    // Taskbar
+
+    SDL_SetRenderDrawColor(renderer, 40, 40, 40, 255);
+
+    SDL_Rect taskbar =
+    {
+        0,
+        680,
+        1280,
+        40
+    };
+
+    SDL_RenderFillRect(renderer, &taskbar);
+
+    // Start Button
+
+    SDL_SetRenderDrawColor(renderer, 0, 120, 215, 255);
+
+    SDL_Rect startButton =
+    {
+        10,
+        685,
+        90,
+        30
+    };
+
+    SDL_RenderFillRect(renderer, &startButton);
+
+    // Desktop Icon
+
+    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+
+    SDL_Rect icon =
+    {
+        30,
+        30,
+        50,
+        50
+    };
+
+    SDL_RenderFillRect(renderer, &icon);
 }

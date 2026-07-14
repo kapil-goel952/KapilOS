@@ -7,6 +7,7 @@ public:
     bool Initialize();
     void Run();
     void Shutdown();
+    void DrawDesktop();
 };
 
 #endif
