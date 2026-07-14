@@ -1,6 +1,8 @@
 #include "Graphics.h"
 #include <SDL2/SDL.h>
 #include <iostream>
+#include "../DesktopIcons/DesktopIcon.h"
+
 
 SDL_Window* window = nullptr;
 SDL_Renderer* renderer = nullptr;
@@ -56,10 +58,15 @@ void Graphics::Run()
 
         SDL_SetRenderDrawColor(renderer, 30, 30, 35, 255);
         SDL_RenderClear(renderer);
-        SDL_RenderPresent(renderer);
 
         DrawDesktop();
 
+        DesktopIcon myComputer(30,30,"My Computer");
+        DesktopIcon settings(30,120,"Settings");
+        myComputer.Draw(renderer);
+        settings.Draw(renderer);
+
+        SDL_RenderPresent(renderer);
         SDL_Delay(16);   // ~60 FPS
     }
 }
@@ -119,13 +126,5 @@ void Graphics::DrawDesktop()
 
     SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
 
-    SDL_Rect icon =
-    {
-        30,
-        30,
-        50,
-        50
-    };
-
-    SDL_RenderFillRect(renderer, &icon);
+    
 }

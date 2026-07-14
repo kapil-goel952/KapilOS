@@ -273,6 +273,30 @@ home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.o: home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.i: home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.s: home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.o: home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.o
 
@@ -492,6 +516,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.s"

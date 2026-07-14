@@ -23,6 +23,7 @@ add_executable(KapilOS
     ../Shell/Shell.cpp
     ../GUI/GUI.cpp
     ../Graphics/Graphics.cpp
+    ../DesktopIcons/DesktopIcon.cpp
 )
 
 target_link_libraries(KapilOS ${SDL2_LIBRARIES})

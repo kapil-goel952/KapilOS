@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Desktop/Desktop.cpp.o.d"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.o"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o"
