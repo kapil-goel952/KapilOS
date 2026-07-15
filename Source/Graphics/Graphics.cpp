@@ -3,7 +3,6 @@
 #include <iostream>
 #include "../DesktopIcons/DesktopIcon.h"
 
-
 SDL_Window* window = nullptr;
 SDL_Renderer* renderer = nullptr;
 
@@ -61,13 +60,9 @@ void Graphics::Run()
 
         DrawDesktop();
 
-        DesktopIcon myComputer(30,30,"My Computer");
-        DesktopIcon settings(30,120,"Settings");
-        myComputer.Draw(renderer);
-        settings.Draw(renderer);
-
         SDL_RenderPresent(renderer);
-        SDL_Delay(16);   // ~60 FPS
+
+        SDL_Delay(16);
     }
 }
 
@@ -95,7 +90,6 @@ void Graphics::DrawDesktop()
     SDL_RenderFillRect(renderer, &wallpaper);
 
     // Taskbar
-
     SDL_SetRenderDrawColor(renderer, 40, 40, 40, 255);
 
     SDL_Rect taskbar =
@@ -109,7 +103,6 @@ void Graphics::DrawDesktop()
     SDL_RenderFillRect(renderer, &taskbar);
 
     // Start Button
-
     SDL_SetRenderDrawColor(renderer, 0, 120, 215, 255);
 
     SDL_Rect startButton =
@@ -122,9 +115,48 @@ void Graphics::DrawDesktop()
 
     SDL_RenderFillRect(renderer, &startButton);
 
-    // Desktop Icon
+    // Desktop Icons
+    DesktopIcon myComputer(30,30,"My Computer");
+    DesktopIcon settings(30,120,"Settings");
 
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+    myComputer.Draw(renderer);
+    settings.Draw(renderer);
 
-    
+    // Windows
+    DrawWindow(120, 80, 420, 300);
+    DrawWindow(600, 120, 350, 250);
+}
+
+void Graphics::DrawWindow(
+    int x,
+    int y,
+    int width,
+    int height
+)
+{
+    // Window Body
+    SDL_SetRenderDrawColor(renderer, 235, 235, 235, 255);
+
+    SDL_Rect body =
+    {
+        x,
+        y,
+        width,
+        height
+    };
+
+    SDL_RenderFillRect(renderer, &body);
+
+    // Title Bar
+    SDL_SetRenderDrawColor(renderer, 40, 110, 220, 255);
+
+    SDL_Rect titleBar =
+    {
+        x,
+        y,
+        width,
+        35
+    };
+
+    SDL_RenderFillRect(renderer, &titleBar);
 }
