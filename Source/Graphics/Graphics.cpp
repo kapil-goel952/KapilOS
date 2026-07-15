@@ -1,4 +1,4 @@
-//is is my self build os
+// welcome to KAPILOS a  self build os
 
 #include "Graphics.h"
 #include <SDL2/SDL.h>
