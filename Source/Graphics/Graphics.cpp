@@ -1,4 +1,4 @@
-//hello guys this is my self build os
+//llo guys this is my self build os
 
 #include "Graphics.h"
 #include <SDL2/SDL.h>
