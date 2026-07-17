@@ -1834,6 +1834,8 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
   /home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h \
   /home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_assert.h \
@@ -2577,6 +2579,52 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o: 
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp \
+  /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
+  /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
+  /usr/include/assert.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp \
+  /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
+  /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h \
+  /usr/include/assert.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
@@ -4724,6 +4772,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 
 /home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp:
 
+/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h:
+
 /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h:
 
 /home/kapil849/Projects/KapilOS/Source/FileExplorer/FileExplorer.cpp:
@@ -4747,6 +4797,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h:
+
+/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:
 
@@ -4996,6 +5048,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 
 /usr/include/c++/13/new:
 
+/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp:
+
 /usr/include/c++/13/ext/alloc_traits.h:
 
 /usr/include/features-time64.h:
@@ -5145,6 +5199,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /usr/include/c++/13/backward/binders.h:
 
 /usr/include/c++/13/type_traits:
+
+/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 

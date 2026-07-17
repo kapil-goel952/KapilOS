@@ -1,7 +1,9 @@
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o: \
  /home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp \
  /usr/include/stdc-predef.h \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/UIManager.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.h \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/TopBar/TopBarUI.h \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \

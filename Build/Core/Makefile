@@ -417,6 +417,78 @@ home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.o: home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.i: home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.s: home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o: home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.i: home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.s: home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.o: home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.i: home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.s: home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/Window/Window.o: home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/Window/Window.o
 
@@ -678,6 +750,15 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Shell/Shell.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Window/Window.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Window/Window.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Window/Window.s"

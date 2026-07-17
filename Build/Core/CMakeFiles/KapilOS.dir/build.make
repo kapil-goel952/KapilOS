@@ -279,10 +279,38 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/Deskto
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.s
 
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o: CMakeFiles/KapilOS.dir/flags.make
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o -c /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp > CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.i
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o: CMakeFiles/KapilOS.dir/flags.make
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o -c /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp > CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.i
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.s
+
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o: /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o -c /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.i: cmake_force
@@ -296,7 +324,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o: /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o -c /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.i: cmake_force
@@ -310,7 +338,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_dra
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o: /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o -c /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.i: cmake_force
@@ -324,7 +352,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tab
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o: /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o -c /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.i: cmake_force
@@ -335,10 +363,24 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_wid
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.s
 
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o: CMakeFiles/KapilOS.dir/flags.make
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o -c /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp > CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.i
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s
+
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o: /home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o -c /home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.i: cmake_force
@@ -352,7 +394,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o: /home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o -c /home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.i: cmake_force
@@ -380,10 +422,13 @@ KapilOS_OBJECTS = \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.o" \
+"CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o" \
+"CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o"
 
@@ -405,16 +450,19 @@ KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shel
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/GUI/GUI.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.cpp.o
+KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o
+KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o
+KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/build.make
 KapilOS: /usr/lib/x86_64-linux-gnu/libSDL2.so
 KapilOS: CMakeFiles/KapilOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable KapilOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable KapilOS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KapilOS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
