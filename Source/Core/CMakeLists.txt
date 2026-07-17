@@ -31,7 +31,8 @@ add_executable(KapilOS
     ../GUI/GUI.cpp
     ../Graphics/Graphics.cpp
     ../DesktopIcons/DesktopIcon.cpp
-
+    ../UI/Desktop/DesktopUI.cpp
+    ../UI/TopBar/TopBarUI.cpp
     ../../ThirdParty/imgui/imgui.cpp
     ../../ThirdParty/imgui/imgui_draw.cpp
     ../../ThirdParty/imgui/imgui_tables.cpp

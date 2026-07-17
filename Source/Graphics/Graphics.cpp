@@ -1,7 +1,7 @@
 // Welcome to KapilOS
-
+#include "../UI/Desktop/DesktopUI.h"
 #include "Graphics.h"
-
+#include"../UI/TopBar/TopBarUI.h"
 #include <SDL2/SDL.h>
 #include <iostream>
 
@@ -98,6 +98,13 @@ void Graphics::Run()
         ImGui::Text("Welcome to KapilOS");
 
         ImGui::Button("Start");
+
+	DesktopUI desktop;
+
+	desktop.Draw();
+	TopBarUI topbar;
+
+	topbar.Draw();
 
         ImGui::End();
 
