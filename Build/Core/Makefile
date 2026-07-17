@@ -441,6 +441,30 @@ home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.o: home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.i: home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.s: home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o: home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o
 
@@ -753,6 +777,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.s"

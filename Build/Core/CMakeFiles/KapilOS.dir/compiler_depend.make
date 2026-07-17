@@ -1834,8 +1834,8 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
   /home/kapil849/Projects/KapilOS/Source/DesktopIcons/DesktopIcon.h \
-  /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.h \
   /home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_assert.h \
@@ -2627,6 +2627,12 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.
   /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp \
+  /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.h \
+  /usr/include/stdc-predef.h
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o: /home/kapil849/Projects/KapilOS/Source/Window/Window.cpp \
   /home/kapil849/Projects/KapilOS/Source/Window/Window.h \
@@ -4766,13 +4772,13 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 
 /home/kapil849/Projects/KapilOS/Source/Window/Window.cpp:
 
+/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h:
+
 /home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp:
 
 /home/kapil849/Projects/KapilOS/Source/Settings/Settings.h:
 
 /home/kapil849/Projects/KapilOS/Source/Settings/Settings.cpp:
-
-/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h:
 
 /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h:
 
@@ -4803,6 +4809,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h:
+
+/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -5339,6 +5347,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/SDL2/SDL_vulkan.h:
+
+/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp:
 
 /usr/include/c++/13/bits/locale_classes.h:
 

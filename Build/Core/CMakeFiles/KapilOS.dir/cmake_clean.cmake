@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o.d"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.o"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o"
