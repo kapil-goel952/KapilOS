@@ -38,6 +38,7 @@ add_executable(KapilOS
     ../../ThirdParty/imgui/imgui_tables.cpp
     ../../ThirdParty/imgui/imgui_widgets.cpp
     ../UI/UIManager/UIManager.cpp
+    ../UI/Dock/DockUI.cpp
     ../../ThirdParty/imgui/backends/imgui_impl_sdl2.cpp
     ../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp
 )
