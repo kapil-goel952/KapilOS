@@ -1,3 +1,0 @@
-/home/kapil849/Projects/KapilOS/Source/Core/CMakeFiles/KapilOS.dir
-/home/kapil849/Projects/KapilOS/Source/Core/CMakeFiles/edit_cache.dir
-/home/kapil849/Projects/KapilOS/Source/Core/CMakeFiles/rebuild_cache.dir

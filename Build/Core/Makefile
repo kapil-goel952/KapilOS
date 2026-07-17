@@ -465,6 +465,150 @@ home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.s
 
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o: home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.i: home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.i
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.s: home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.s
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.o: home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.i: home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.i
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.s: home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.s
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.o: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.i: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.i
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.s: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.s
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.o: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.i: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.i
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.s: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.s
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.o: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.i: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.i
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.s: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.s
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.o: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.i: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.i
+
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.s: home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -540,6 +684,24 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.s"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.i"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.s"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.o"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.i"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.s"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.o"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.i"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.s"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.o"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.i"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.s"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.o"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.i"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.s"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.o"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.i"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

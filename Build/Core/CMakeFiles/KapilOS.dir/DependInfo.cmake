@@ -22,6 +22,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Window/Window.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/WindowManager/WindowManager.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_draw.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_tables.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_widgets.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Core/main.cpp" "CMakeFiles/KapilOS.dir/main.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/main.cpp.o.d"
   )
 
