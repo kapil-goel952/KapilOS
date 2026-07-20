@@ -465,6 +465,30 @@ home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.o: home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.i: home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.s: home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.o: home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.o
 
@@ -804,6 +828,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.s"
