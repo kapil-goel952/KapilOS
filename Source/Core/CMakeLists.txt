@@ -21,28 +21,22 @@ add_executable(KapilOS
     Logger.cpp
     Config.cpp
 
-    ../Desktop/Desktop.cpp
-    ../WindowManager/WindowManager.cpp
-    ../Window/Window.cpp
-    ../ApplicationManager/ApplicationManager.cpp
-    ../FileExplorer/FileExplorer.cpp
-    ../Settings/Settings.cpp
-    ../Shell/Shell.cpp
-    ../GUI/GUI.cpp
     ../Graphics/Graphics.cpp
-    ../DesktopIcons/DesktopIcon.cpp
+
     ../UI/Desktop/DesktopUI.cpp
     ../UI/TopBar/TopBarUI.cpp
+    ../UI/Dock/DockUI.cpp
+    ../UI/Sidebar/SidebarUI.cpp
+    ../UI/UIManager/UIManager.cpp
+    ../UI/Theme/ThemeManager.cpp
+
     ../../ThirdParty/imgui/imgui.cpp
     ../../ThirdParty/imgui/imgui_draw.cpp
     ../../ThirdParty/imgui/imgui_tables.cpp
     ../../ThirdParty/imgui/imgui_widgets.cpp
-    ../UI/UIManager/UIManager.cpp
-    ../UI/Dock/DockUI.cpp
+
     ../../ThirdParty/imgui/backends/imgui_impl_sdl2.cpp
     ../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp
-    ../UI/Theme/ThemeManager.cpp
-    ../UI/Sidebar/SidebarUI.cpp
 )
 
 target_link_libraries(

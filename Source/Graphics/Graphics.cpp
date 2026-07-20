@@ -1,17 +1,19 @@
-// Welcome to KapilOS
+// =======================================================
+// KapilOS Graphics Engine
+// =======================================================
+
+#include "Graphics.h"
 
 #include "../UI/Theme/ThemeManager.h"
 #include "../UI/UIManager/UIManager.h"
-#include "Graphics.h"
-#include"../UI/TopBar/TopBarUI.h"
+
 #include <SDL2/SDL.h>
-#include <iostream>
 
 #include "../../ThirdParty/imgui/imgui.h"
 #include "../../ThirdParty/imgui/backends/imgui_impl_sdl2.h"
 #include "../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.h"
 
-#include "../DesktopIcons/DesktopIcon.h"
+#include <iostream>
 
 SDL_Window* window = nullptr;
 SDL_Renderer* renderer = nullptr;
@@ -51,18 +53,20 @@ bool Graphics::Initialize()
         return false;
     }
 
-    // Dear ImGui Initialization
+    // Dear ImGui
 
     IMGUI_CHECKVERSION();
 
     ImGui::CreateContext();
 
-    ImGuiIO& io = ImGui::GetIO();
-    (void)io;
+    ImGui::GetIO();
 
     ImGui::StyleColorsDark();
+
     ThemeManager::Apply();
+
     ImGui_ImplSDL2_InitForSDLRenderer(window, renderer);
+
     ImGui_ImplSDLRenderer2_Init(renderer);
 
     return true;
@@ -73,6 +77,8 @@ void Graphics::Run()
     bool running = true;
 
     SDL_Event event;
+
+    UIManager ui;
 
     while (running)
     {
@@ -90,131 +96,34 @@ void Graphics::Run()
         ImGui_ImplSDL2_NewFrame();
         ImGui::NewFrame();
 
-        SDL_SetRenderDrawColor(renderer, 30, 30, 35, 255);
-        SDL_RenderClear(renderer);
-
-        DrawDesktop();
-
-        ImGui::Begin("KapilOS");
-
-        ImGui::Text("Welcome to KapilOS");
-
-        ImGui::Button("Start");
-
-	UIManager ui;
-
-	ui.Draw();
-
-        ImGui::End();
+        ui.Draw();
 
         ImGui::Render();
 
-        ImGui_ImplSDLRenderer2_RenderDrawData(ImGui::GetDrawData(), renderer);
+        SDL_SetRenderDrawColor(renderer, 18, 22, 32, 255);
+
+        SDL_RenderClear(renderer);
+
+        ImGui_ImplSDLRenderer2_RenderDrawData(
+            ImGui::GetDrawData(),
+            renderer
+        );
 
         SDL_RenderPresent(renderer);
-
-        SDL_Delay(16);
     }
 }
 
 void Graphics::Shutdown()
 {
     ImGui_ImplSDLRenderer2_Shutdown();
+
     ImGui_ImplSDL2_Shutdown();
+
     ImGui::DestroyContext();
 
     SDL_DestroyRenderer(renderer);
+
     SDL_DestroyWindow(window);
 
     SDL_Quit();
-}
-
-void Graphics::DrawDesktop()
-{
-    // Wallpaper
-
-    SDL_SetRenderDrawColor(renderer, 25, 80, 180, 255);
-
-    SDL_Rect wallpaper =
-    {
-        0,
-        0,
-        1280,
-        720
-    };
-
-    SDL_RenderFillRect(renderer, &wallpaper);
-
-    // Taskbar
-
-    SDL_SetRenderDrawColor(renderer, 40, 40, 40, 255);
-
-    SDL_Rect taskbar =
-    {
-        0,
-        680,
-        1280,
-        40
-    };
-
-    SDL_RenderFillRect(renderer, &taskbar);
-
-    // Start Button
-
-    SDL_SetRenderDrawColor(renderer, 0, 120, 215, 255);
-
-    SDL_Rect startButton =
-    {
-        10,
-        685,
-        90,
-        30
-    };
-
-    SDL_RenderFillRect(renderer, &startButton);
-
-    // Desktop Icons
-
-    DesktopIcon myComputer(30, 30, "My Computer");
-    DesktopIcon settings(30, 120, "Settings");
-
-    myComputer.Draw(renderer);
-    settings.Draw(renderer);
-
-    // Sample Windows
-
-    DrawWindow(120, 80, 420, 300);
-    DrawWindow(600, 120, 350, 250);
-}
-
-void Graphics::DrawWindow(
-    int x,
-    int y,
-    int width,
-    int height
-)
-{
-    SDL_SetRenderDrawColor(renderer, 235, 235, 235, 255);
-
-    SDL_Rect body =
-    {
-        x,
-        y,
-        width,
-        height
-    };
-
-    SDL_RenderFillRect(renderer, &body);
-
-    SDL_SetRenderDrawColor(renderer, 40, 110, 220, 255);
-
-    SDL_Rect titleBar =
-    {
-        x,
-        y,
-        width,
-        35
-    };
-
-    SDL_RenderFillRect(renderer, &titleBar);
 }
