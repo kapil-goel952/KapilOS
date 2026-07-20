@@ -1,19 +1,39 @@
-#include "../Sidebar/SidebarUI.h"
 #include "UIManager.h"
-#include "../Dock/DockUI.h"
-#include "../Desktop/DesktopUI.h"
-#include "../TopBar/TopBarUI.h"
+
+UIManager::UIManager()
+
+    :
+
+    explorer(
+        "File Explorer",
+        250,
+        120,
+        500,
+        350
+    ),
+
+    settings(
+        "Settings",
+        820,
+        180,
+        350,
+        260
+    )
+
+{
+}
+
 void UIManager::Draw()
 {
-    DesktopUI desktop;
     desktop.Draw();
 
-    TopBarUI topbar;
-    topbar.Draw();
+    topBar.Draw();
 
-    SidebarUI sidebar;
     sidebar.Draw();
 
-    DockUI dock;
     dock.Draw();
+
+    explorer.Draw();
+
+    settings.Draw();
 }

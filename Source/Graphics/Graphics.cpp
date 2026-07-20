@@ -78,7 +78,7 @@ void Graphics::Run()
 
     SDL_Event event;
 
-    UIManager ui;
+    UIManager uiManager;
 
     while (running)
     {
@@ -96,12 +96,11 @@ void Graphics::Run()
         ImGui_ImplSDL2_NewFrame();
         ImGui::NewFrame();
 
-        ui.Draw();
+        uiManager.Draw();
 
         ImGui::Render();
 
-        SDL_SetRenderDrawColor(renderer, 18, 22, 32, 255);
-
+        SDL_SetRenderDrawColor(renderer, 30, 30, 35, 255);
         SDL_RenderClear(renderer);
 
         ImGui_ImplSDLRenderer2_RenderDrawData(
@@ -112,7 +111,6 @@ void Graphics::Run()
         SDL_RenderPresent(renderer);
     }
 }
-
 void Graphics::Shutdown()
 {
     ImGui_ImplSDLRenderer2_Shutdown();
