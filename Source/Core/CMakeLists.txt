@@ -41,6 +41,7 @@ add_executable(KapilOS
     ../UI/Dock/DockUI.cpp
     ../../ThirdParty/imgui/backends/imgui_impl_sdl2.cpp
     ../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp
+    ../UI/Theme/ThemeManager.cpp
 )
 
 target_link_libraries(

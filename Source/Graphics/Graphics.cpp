@@ -1,4 +1,6 @@
 // Welcome to KapilOS
+
+#include "../UI/Theme/ThemeManager.h"
 #include "../UI/UIManager/UIManager.h"
 #include "Graphics.h"
 #include"../UI/TopBar/TopBarUI.h"
@@ -59,7 +61,7 @@ bool Graphics::Initialize()
     (void)io;
 
     ImGui::StyleColorsDark();
-
+    ThemeManager::Apply();
     ImGui_ImplSDL2_InitForSDLRenderer(window, renderer);
     ImGui_ImplSDLRenderer2_Init(renderer);
 

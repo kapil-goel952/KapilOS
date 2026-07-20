@@ -2605,6 +2605,29 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopU
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp \
+  /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
+  /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.h \
+  /usr/include/assert.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
@@ -2630,6 +2653,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp \
   /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.h \
   /usr/include/stdc-predef.h
@@ -4772,6 +4796,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 
 /home/kapil849/Projects/KapilOS/Source/Window/Window.cpp:
 
+/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp:
+
 /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h:
 
 /home/kapil849/Projects/KapilOS/Source/Shell/Shell.cpp:
@@ -4831,6 +4857,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h:
+
+/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h:
 

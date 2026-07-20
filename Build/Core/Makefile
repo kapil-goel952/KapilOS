@@ -465,6 +465,30 @@ home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.o: home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.i: home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.s: home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o: home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o
 
@@ -780,6 +804,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.s"
