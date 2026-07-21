@@ -23,15 +23,28 @@ UIManager::UIManager()
 {
 }
 
-void UIManager::Draw()
+void UIManager::Draw(
+    int screenWidth,
+    int screenHeight
+)
 {
-    desktop.Draw();
+    desktop.Draw(
+        screenWidth,
+        screenHeight
+    );
 
-    topBar.Draw();
+    topBar.Draw(
+        screenWidth
+    );
 
-    sidebar.Draw();
+    sidebar.Draw(
+        screenHeight
+    );
 
-    dock.Draw();
+    dock.Draw(
+        screenWidth,
+        screenHeight
+    );
 
     explorer.Draw();
 

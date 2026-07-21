@@ -95,8 +95,18 @@ void Graphics::Run()
         ImGui_ImplSDLRenderer2_NewFrame();
         ImGui_ImplSDL2_NewFrame();
         ImGui::NewFrame();
+        int screenWidth;
+int screenHeight;
 
-        uiManager.Draw();
+        SDL_GetWindowSize(
+            window,
+            &screenWidth,
+	    &screenHeight
+        );
+        uiManager.Draw(
+            screenWidth,
+            screenHeight
+        );
 
         ImGui::Render();
 

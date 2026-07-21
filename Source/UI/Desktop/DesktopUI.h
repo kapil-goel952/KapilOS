@@ -4,7 +4,11 @@
 class DesktopUI
 {
 public:
-    void Draw();
+
+    void Draw(
+        int screenWidth,
+        int screenHeight
+    );
 };
 
 #endif

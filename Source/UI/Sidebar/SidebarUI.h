@@ -4,7 +4,10 @@
 class SidebarUI
 {
 public:
-    void Draw();
+
+    void Draw(
+        int screenHeight
+    );
 };
 
 #endif

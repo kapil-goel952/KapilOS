@@ -4,7 +4,10 @@
 class TopBarUI
 {
 public:
-    void Draw();
+
+    void Draw(
+        int screenWidth
+    );
 };
 
 #endif

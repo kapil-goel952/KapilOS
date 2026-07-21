@@ -13,7 +13,10 @@ public:
 
     UIManager();
 
-    void Draw();
+    void Draw(
+        int screenWidth,
+        int screenHeight
+    );
 
 private:
 

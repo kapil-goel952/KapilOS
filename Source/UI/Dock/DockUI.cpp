@@ -2,32 +2,56 @@
 
 #include "../../../ThirdParty/imgui/imgui.h"
 
-void DockUI::Draw()
+void DockUI::Draw(
+    int screenWidth,
+    int screenHeight
+)
 {
     ImGuiWindowFlags flags =
         ImGuiWindowFlags_NoDecoration |
         ImGuiWindowFlags_NoMove |
-        ImGuiWindowFlags_NoResize |
-        ImGuiWindowFlags_NoScrollbar;
+        ImGuiWindowFlags_NoResize;
 
-    ImGui::SetNextWindowPos(ImVec2(380, 650));
-    ImGui::SetNextWindowSize(ImVec2(520, 60));
+    const float dockWidth = 420.0f;
+    const float dockHeight = 70.0f;
 
-    ImGui::Begin("Dock", nullptr, flags);
+    ImGui::SetNextWindowPos(
+        ImVec2(
+            (screenWidth - dockWidth) * 0.5f,
+            screenHeight - dockHeight - 20.0f
+        )
+    );
 
-    ImGui::Button("Apps");
+    ImGui::SetNextWindowSize(
+        ImVec2(
+            dockWidth,
+            dockHeight
+        )
+    );
+
+    ImGui::Begin(
+        "Dock",
+        nullptr,
+        flags
+    );
+
+    ImGui::Button("🌐", ImVec2(55, 50));
+
     ImGui::SameLine();
 
-    ImGui::Button("Browser");
+    ImGui::Button("📁", ImVec2(55, 50));
+
     ImGui::SameLine();
 
-    ImGui::Button("Files");
+    ImGui::Button("⚙", ImVec2(55, 50));
+
     ImGui::SameLine();
 
-    ImGui::Button("Terminal");
+    ImGui::Button("🖥", ImVec2(55, 50));
+
     ImGui::SameLine();
 
-    ImGui::Button("Settings");
+    ImGui::Button("🎵", ImVec2(55, 50));
 
     ImGui::End();
 }
