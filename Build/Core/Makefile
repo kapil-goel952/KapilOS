@@ -225,6 +225,102 @@ Version.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Version.cpp.s
 .PHONY : Version.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.o: home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.i: home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.s: home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.o: home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.i: home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s: home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o: home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.i: home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.s: home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.o: home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.i: home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.s: home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o: home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o
 
@@ -392,6 +488,78 @@ home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.s: home/kapil849/Pr
 home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.o: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.i: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.s: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.o: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.i: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.s: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.o: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.i: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.s: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp.s
 
 home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.o: home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.o
@@ -606,6 +774,18 @@ help:
 	@echo "... Version.o"
 	@echo "... Version.i"
 	@echo "... Version.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.s"
@@ -627,6 +807,15 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.s"
