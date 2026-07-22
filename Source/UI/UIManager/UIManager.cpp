@@ -27,5 +27,21 @@ void UIManager::Draw(
         screenHeight
     );
 
+    weather.Draw(
+        screenWidth,
+        screenHeight
+    );
+
+    calendar.Draw(
+        screenWidth,
+        screenHeight
+    );
+
+    status.Draw(
+        screenWidth,
+        screenHeight
+    );
+
+
     applicationManager.Draw();
 }
