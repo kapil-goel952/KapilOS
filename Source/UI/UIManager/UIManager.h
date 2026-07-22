@@ -1,11 +1,14 @@
 #ifndef UI_MANAGER_H
 #define UI_MANAGER_H
-
+#include "../Widgets/Weather/WeatherWidget.h"
+#include "../Widgets/Calendar/CalendarWidget.h"
+#include "../Widgets/Status/StatusWidget.h"
 #include "../Desktop/DesktopUI.h"
 #include "../TopBar/TopBarUI.h"
 #include "../Sidebar/SidebarUI.h"
 #include "../Dock/DockUI.h"
-#include "../Window/WindowUI.h"
+
+#include "../../ApplicationManager/ApplicationManager.h"
 
 class UIManager
 {
@@ -19,6 +22,11 @@ public:
     );
 
 private:
+    WeatherWidget weather;
+
+    CalendarWidget calendar;
+
+    StatusWidget status;
 
     DesktopUI desktop;
 
@@ -28,9 +36,7 @@ private:
 
     DockUI dock;
 
-    WindowUI explorer;
-
-    WindowUI settings;
+    ApplicationManager applicationManager;
 };
 
 #endif

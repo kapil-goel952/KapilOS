@@ -38,6 +38,10 @@ add_executable(KapilOS
 
     ../../ThirdParty/imgui/backends/imgui_impl_sdl2.cpp
     ../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp
+    ../ApplicationManager/ApplicationManager.cpp
+    ../Applications/Application/Application.cpp
+    ../Applications/FileExplorer/FileExplorerApp.cpp
+    ../Applications/Settings/SettingsApp.cpp
 )
 
 target_link_libraries(
