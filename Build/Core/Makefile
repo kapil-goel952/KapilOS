@@ -321,6 +321,30 @@ home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o: home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.i: home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.s: home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o: home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o
 
@@ -786,6 +810,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.s"

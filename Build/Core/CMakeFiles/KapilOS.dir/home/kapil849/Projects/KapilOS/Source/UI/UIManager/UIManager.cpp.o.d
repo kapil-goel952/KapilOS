@@ -163,4 +163,8 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
- /usr/include/c++/13/bits/basic_string.tcc
+ /usr/include/c++/13/bits/basic_string.tcc \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../../ThirdParty/imgui/imgui.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../../ThirdParty/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/assert.h
