@@ -1,5 +1,5 @@
 #include "TopBarUI.h"
-
+#include "../Layout/LayoutManager.h"
 #include "../../../ThirdParty/imgui/imgui.h"
 
 void TopBarUI::Draw(
@@ -9,16 +9,17 @@ void TopBarUI::Draw(
     ImGuiWindowFlags flags =
         ImGuiWindowFlags_NoDecoration |
         ImGuiWindowFlags_NoMove |
-        ImGuiWindowFlags_NoResize;
+        ImGuiWindowFlags_NoResize |
+        ImGuiWindowFlags_NoSavedSettings |
+        ImGuiWindowFlags_NoBringToFrontOnFocus;
 
     ImGui::SetNextWindowPos(
         ImVec2(0, 0)
     );
-
     ImGui::SetNextWindowSize(
         ImVec2(
-            (float)screenWidth,
-            40
+            LayoutManager::ScreenWidth(),
+            LayoutManager::TopBarHeight()
         )
     );
 
@@ -33,14 +34,15 @@ void TopBarUI::Draw(
 
     // Center
     ImGui::SameLine(
-        screenWidth * 0.45f
+        LayoutManager::ScreenWidth() * 0.47f
     );
 
     ImGui::Text("09:41 AM");
 
     // Right Side
     ImGui::SameLine(
-        screenWidth - 180
+        LayoutManager::ScreenWidth()
+        - LayoutManager::Padding() * 18
     );
 
     ImGui::Text("WiFi  Battery  User");

@@ -1,3 +1,4 @@
+#include "../Layout/LayoutManager.h"
 #include "UIManager.h"
 #include "../../../ThirdParty/imgui/imgui.h"
 UIManager::UIManager()
@@ -9,6 +10,10 @@ void UIManager::Draw(
     int screenHeight
 )
 {
+    LayoutManager::Update(
+        screenWidth,
+        screenHeight
+    );
 
     ImGuiWindowFlags dockspaceFlags =
     ImGuiWindowFlags_NoDocking |

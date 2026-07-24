@@ -31,6 +31,7 @@ add_executable(KapilOS
     ../UI/Sidebar/SidebarUI.cpp
     ../UI/UIManager/UIManager.cpp
     ../UI/Theme/ThemeManager.cpp
+    ../UI/Layout/LayoutManager.cpp
     ../UI/Window/WindowUI.cpp
 
     ../../ThirdParty/imgui/imgui.cpp
