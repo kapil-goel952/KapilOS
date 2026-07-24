@@ -1978,6 +1978,10 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.cpp \
+  /home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.h \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
@@ -2027,6 +2031,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManag
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.h \
   /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h \
   /usr/include/assert.h \
   /usr/include/features-time64.h \
@@ -2054,6 +2059,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
   /home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.h \
@@ -4363,6 +4369,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h:
 
+/home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h:
@@ -4582,6 +4590,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
 /usr/include/c++/13/bits/atomic_base.h:
+
+/home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 

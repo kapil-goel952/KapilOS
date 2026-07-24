@@ -2,6 +2,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.
  /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.cpp \
  /usr/include/stdc-predef.h \
  /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/TopBar/../Layout/LayoutManager.h \
  /home/kapil849/Projects/KapilOS/Source/UI/TopBar/../../../ThirdParty/imgui/imgui.h \
  /home/kapil849/Projects/KapilOS/Source/UI/TopBar/../../../ThirdParty/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
