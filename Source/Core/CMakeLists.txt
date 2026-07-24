@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.10)
 project(KapilOS)
 
 find_package(SDL2 REQUIRED)
+find_package(SDL2_image REQUIRED)
+
 
 include_directories(
     ${SDL2_INCLUDE_DIRS}
@@ -46,9 +48,12 @@ add_executable(KapilOS
     ../Applications/Application/Application.cpp
     ../Applications/FileExplorer/FileExplorerApp.cpp
     ../Applications/Settings/SettingsApp.cpp
+
+    ../AssetManager/AssetManager.cpp
 )
 
 target_link_libraries(
     KapilOS
     ${SDL2_LIBRARIES}
+    SDL2_image
 )

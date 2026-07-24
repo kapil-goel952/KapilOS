@@ -11,7 +11,8 @@ void DesktopUI::Draw(
         ImGuiWindowFlags_NoDecoration |
         ImGuiWindowFlags_NoMove |
         ImGuiWindowFlags_NoResize |
-        ImGuiWindowFlags_NoBringToFrontOnFocus;
+        ImGuiWindowFlags_NoBringToFrontOnFocus |
+        ImGuiWindowFlags_NoBackground;
 
     ImGui::SetNextWindowPos(
         ImVec2(0, 0)
@@ -19,8 +20,8 @@ void DesktopUI::Draw(
 
     ImGui::SetNextWindowSize(
         ImVec2(
-            (float)screenWidth,
-            (float)screenHeight
+            screenWidth,
+            screenHeight
         )
     );
 
@@ -30,16 +31,29 @@ void DesktopUI::Draw(
         flags
     );
 
-    ImGui::Text("KapilOS Desktop");
-
-    ImGui::Button(
-        "My Computer",
-        ImVec2(120, 40)
+    ImGui::Dummy(
+        ImVec2(
+            20,
+            20
+        )
     );
 
     ImGui::Button(
-        "Settings",
-        ImVec2(120, 40)
+        "🖥 My Computer",
+        ImVec2(
+            150,
+            45
+        )
+    );
+
+    ImGui::Spacing();
+
+    ImGui::Button(
+        "⚙ Settings",
+        ImVec2(
+            150,
+            45
+        )
     );
 
     ImGui::End();

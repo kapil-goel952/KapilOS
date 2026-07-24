@@ -3,29 +3,43 @@
 
 #include <string>
 
+enum class WindowState
+{
+    Normal,
+    Minimized,
+    Maximized,
+    FullScreen,
+    Zen
+};
+
+
 class WindowUI
 {
-public:
+    public:
 
-    WindowUI(
-        const std::string& title,
-        float x,
-        float y,
-        float width,
-        float height
-    );
+        WindowUI(
+            const std::string& title,
+            float x,
+            float y,
+            float width,
+            float height
+        );
 
-    void Draw();
+        void Draw();
 
-private:
+     private:
 
-    std::string m_title;
+         std::string m_title;
 
-    float m_x;
-    float m_y;
+        float m_x;
+        float m_y;
 
-    float m_width;
-    float m_height;
+        float m_width;
+        float m_height;
+
+	WindowState m_state;
+        bool m_isOpen;
+        bool m_isFocused;
 };
 
 #endif

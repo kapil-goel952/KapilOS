@@ -13,7 +13,11 @@ public:
     void Draw() override;
 
 private:
+    bool darkTheme = true;
 
+bool animations = true;
+
+bool notifications = true;
     WindowUI window;
 };
 

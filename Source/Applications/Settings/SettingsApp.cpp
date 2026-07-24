@@ -27,9 +27,18 @@ void SettingsApp::Draw()
 
     ImGui::Separator();
 
-    ImGui::Checkbox("Dark Theme", nullptr);
+    ImGui::Checkbox(
+        "Dark Theme",
+        &darkTheme
+    );
 
-    ImGui::Checkbox("Animations", nullptr);
+    ImGui::Checkbox(
+        "Animations",
+         &animations
+    );
 
-    ImGui::Checkbox("Notifications", nullptr);
+    ImGui::Checkbox(
+        "Notifications",
+        &notifications
+    );
 }

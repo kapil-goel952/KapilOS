@@ -3,20 +3,18 @@
 // =======================================================
 
 #include "Graphics.h"
-
+#include "../AssetManager/AssetManager.h"
 #include "../UI/Theme/ThemeManager.h"
 #include "../UI/UIManager/UIManager.h"
 
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 #include "../../ThirdParty/imgui/imgui.h"
 #include "../../ThirdParty/imgui/backends/imgui_impl_sdl2.h"
 #include "../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.h"
 
 #include <iostream>
-
-SDL_Window* window = nullptr;
-SDL_Renderer* renderer = nullptr;
 
 bool Graphics::Initialize()
 {
@@ -26,7 +24,13 @@ bool Graphics::Initialize()
         return false;
     }
 
-    window = SDL_CreateWindow(
+    if (!(IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG)))
+    {
+        std::cout << "SDL_image Initialization Failed\n";
+        return false;
+    }
+
+    m_window = SDL_CreateWindow(
         "KapilOS 0.0.1 Alpha",
         SDL_WINDOWPOS_CENTERED,
         SDL_WINDOWPOS_CENTERED,
@@ -35,29 +39,35 @@ bool Graphics::Initialize()
         SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE
     );
 
-    if (!window)
+    if (!m_window)
     {
         std::cout << "Window Creation Failed\n";
         return false;
     }
 
-    renderer = SDL_CreateRenderer(
-        window,
+    m_renderer = SDL_CreateRenderer(
+        m_window,
         -1,
         SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC
     );
 
-    if (!renderer)
+    if (!m_renderer)
     {
         std::cout << "Renderer Creation Failed\n";
         return false;
     }
 
-    // Dear ImGui
+    // -----------------------------
+    // Dear ImGui Initialization
+    // -----------------------------
 
     IMGUI_CHECKVERSION();
 
     ImGui::CreateContext();
+
+    ImGuiIO& io = ImGui::GetIO();
+
+    io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
 
     ImGui::GetIO();
 
@@ -65,9 +75,33 @@ bool Graphics::Initialize()
 
     ThemeManager::Apply();
 
-    ImGui_ImplSDL2_InitForSDLRenderer(window, renderer);
+    ImGui_ImplSDL2_InitForSDLRenderer(
+        m_window,
+        m_renderer
+    );
 
-    ImGui_ImplSDLRenderer2_Init(renderer);
+    ImGui_ImplSDLRenderer2_Init(
+        m_renderer
+    );
+
+    // -----------------------------
+    // Load Wallpaper
+    // -----------------------------
+
+    m_wallpaper = IMG_LoadTexture(
+    m_renderer,
+    AssetManager::GetWallpaper(
+        "wallpaper.jpg"
+        ).c_str()
+    );
+
+    if (!m_wallpaper)
+    {
+        std::cout
+            << "Failed to load wallpaper : "
+            << IMG_GetError()
+            << std::endl;
+    }
 
     return true;
 }
@@ -92,17 +126,21 @@ void Graphics::Run()
             }
         }
 
-        ImGui_ImplSDLRenderer2_NewFrame();
-        ImGui_ImplSDL2_NewFrame();
-        ImGui::NewFrame();
         int screenWidth;
-int screenHeight;
+        int screenHeight;
 
         SDL_GetWindowSize(
-            window,
+            m_window,
             &screenWidth,
-	    &screenHeight
+            &screenHeight
         );
+
+        ImGui_ImplSDLRenderer2_NewFrame();
+
+        ImGui_ImplSDL2_NewFrame();
+
+        ImGui::NewFrame();
+
         uiManager.Draw(
             screenWidth,
             screenHeight
@@ -110,28 +148,63 @@ int screenHeight;
 
         ImGui::Render();
 
-        SDL_SetRenderDrawColor(renderer, 30, 30, 35, 255);
-        SDL_RenderClear(renderer);
+        SDL_SetRenderDrawColor(
+            m_renderer,
+            30,
+            30,
+            35,
+            255
+        );
+
+        SDL_RenderClear(
+            m_renderer
+        );
+
+        if (m_wallpaper)
+        {
+            SDL_RenderCopy(
+                m_renderer,
+                m_wallpaper,
+                nullptr,
+                nullptr
+            );
+        }
 
         ImGui_ImplSDLRenderer2_RenderDrawData(
             ImGui::GetDrawData(),
-            renderer
+            m_renderer
         );
 
-        SDL_RenderPresent(renderer);
+        SDL_RenderPresent(
+            m_renderer
+        );
     }
 }
+
 void Graphics::Shutdown()
 {
+    if (m_wallpaper)
+    {
+        SDL_DestroyTexture(
+            m_wallpaper
+        );
+    }
+
     ImGui_ImplSDLRenderer2_Shutdown();
 
     ImGui_ImplSDL2_Shutdown();
 
     ImGui::DestroyContext();
 
-    SDL_DestroyRenderer(renderer);
+    SDL_DestroyRenderer(
+        m_renderer
+    );
 
-    SDL_DestroyWindow(window);
+    SDL_DestroyWindow(
+        m_window
+    );
+
+    IMG_Quit();
 
     SDL_Quit();
 }
