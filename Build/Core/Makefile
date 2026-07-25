@@ -441,6 +441,54 @@ home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.o: home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.i: home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.s: home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.o: home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.i: home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.s: home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.o: home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.o
 
@@ -897,6 +945,12 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.s"
