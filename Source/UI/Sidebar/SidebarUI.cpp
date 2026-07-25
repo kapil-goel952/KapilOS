@@ -1,3 +1,5 @@
+#include "../Widgets/Button/KapilButton.h"
+#include "../Layout/LayoutManager.h"
 #include "SidebarUI.h"
 
 #include "../../../ThirdParty/imgui/imgui.h"
@@ -28,37 +30,50 @@ void SidebarUI::Draw(
         flags
     );
 
-    ImGui::Button(
+    KapilButton::Draw(
+        "home",
         "🏠",
-        ImVec2(50, 50)
+        "Home",
+        LayoutManager::SidebarWidth() * 0.75f,
+        LayoutManager::SidebarWidth() * 0.75f
     );
 
     ImGui::Spacing();
-
-    ImGui::Button(
-        "🔍",
-        ImVec2(50, 50)
+    KapilButton::Draw(
+        "search",
+        "🔍"  ,
+        "Search",
+        LayoutManager::SidebarWidth() * 0.75f,
+        LayoutManager::SidebarWidth() * 0.75f
     );
 
     ImGui::Spacing();
-
-    ImGui::Button(
+    KapilButton::Draw(
+        "files",
         "📁",
-        ImVec2(50, 50)
+        "Files",
+        LayoutManager::SidebarWidth() * 0.75f,
+        LayoutManager::SidebarWidth() * 0.75f
     );
 
     ImGui::Spacing();
-
-    ImGui::Button(
+    KapilButton::Draw(
+        "settings",
         "⚙",
-        ImVec2(50, 50)
+        "Settings",
+        LayoutManager::SidebarWidth() * 0.75f,
+        LayoutManager::SidebarWidth() * 0.75f
     );
+
 
     ImGui::Spacing();
 
-    ImGui::Button(
-        "😊",
-        ImVec2(50, 50)
+    KapilButton::Draw(
+        "profile",
+        "👤",
+        "Profile",
+        LayoutManager::SidebarWidth() * 0.75f,
+        LayoutManager::SidebarWidth() * 0.75f
     );
 
     ImGui::End();

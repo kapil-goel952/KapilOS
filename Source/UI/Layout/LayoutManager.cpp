@@ -1,3 +1,4 @@
+#include "../Constants/UIConstants.h"
 #include "LayoutManager.h"
 
 float LayoutManager::m_screenWidth = 1280.0f;
@@ -24,30 +25,60 @@ float LayoutManager::ScreenHeight()
 
 float LayoutManager::TopBarHeight()
 {
-    return m_screenHeight * 0.05f;
+    return ScaleY(UI::TopBarHeight);
 }
 
 float LayoutManager::SidebarWidth()
 {
-    return m_screenWidth * 0.045f;
+    return ScaleX(UI::SidebarWidth);
 }
 
 float LayoutManager::DockWidth()
 {
-    return m_screenWidth * 0.28f;
+    return ScaleX(540.0f);
 }
 
 float LayoutManager::DockHeight()
 {
-    return m_screenHeight * 0.09f;
+    return ScaleY(UI::DockHeight);
 }
 
 float LayoutManager::Padding()
 {
-    return m_screenWidth * 0.008f;
+    return ScaleX(UI::Padding);
 }
 
 float LayoutManager::CornerRadius()
 {
-    return m_screenWidth * 0.008f;
+    return ScaleX(UI::Radius);
+}
+
+float LayoutManager::ScaleX(float value)
+{
+    return value * (m_screenWidth / UI::BaseWidth);
+}
+
+float LayoutManager::ScaleY(float value)
+{
+    return value * (m_screenHeight / UI::BaseHeight);
+}
+
+float LayoutManager::IconButtonSize()
+{
+    return ScaleX(UI::IconButton);
+}
+
+float LayoutManager::SmallIconButton()
+{
+    return ScaleX(UI::IconButton * 0.8f);
+}
+
+float LayoutManager::Spacing()
+{
+    return ScaleX(UI::Spacing);
+}
+
+float LayoutManager::RightPadding()
+{
+    return ScaleX(24.0f);
 }

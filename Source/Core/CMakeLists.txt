@@ -33,7 +33,6 @@ add_executable(KapilOS
     ../UI/Theme/ThemeManager.cpp
     ../UI/Layout/LayoutManager.cpp
     ../UI/Window/WindowUI.cpp
-    ../UI/Theme/ThemeManager.cpp
 
     ../../ThirdParty/imgui/imgui.cpp
     ../../ThirdParty/imgui/imgui_draw.cpp
@@ -41,6 +40,7 @@ add_executable(KapilOS
     ../../ThirdParty/imgui/imgui_widgets.cpp
 
     ../UI/Widgets/Weather/WeatherWidget.cpp
+    ../UI/Widgets/Button/KapilButton.cpp
     ../UI/Widgets/Calendar/CalendarWidget.cpp
     ../UI/Widgets/Status/StatusWidget.cpp
 
@@ -52,6 +52,8 @@ add_executable(KapilOS
     ../Applications/Settings/SettingsApp.cpp
 
     ../AssetManager/AssetManager.cpp
+
+    ../UI/Constants/UIConstants.cpp
 )
 
 target_link_libraries(

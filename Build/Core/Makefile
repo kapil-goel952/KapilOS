@@ -369,6 +369,30 @@ home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.o: home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.i: home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.s: home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.o: home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.o
 
@@ -536,6 +560,30 @@ home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.s: home/kapil849/Pr
 home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.o: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.i: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.s: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.cpp.s
 
 home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.o: home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.o
@@ -840,6 +888,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.s"
@@ -861,6 +912,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.s"

@@ -24,7 +24,17 @@ public:
     static float Padding();
 
     static float CornerRadius();
+    static float ScaleX(float value);
 
+    static float ScaleY(float value);
+
+    static float IconButtonSize();
+
+    static float SmallIconButton();
+
+    static float Spacing();
+
+    static float RightPadding();
 private:
 
     static float m_screenWidth;
