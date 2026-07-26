@@ -316,6 +316,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Application/Application.h \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/Icon/IconManager.h \
  /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../../ThirdParty/imgui/backends/imgui_impl_sdl2.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.h \
