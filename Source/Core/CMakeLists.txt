@@ -54,6 +54,10 @@ add_executable(KapilOS
     ../AssetManager/AssetManager.cpp
 
     ../UI/Constants/UIConstants.cpp
+
+    ../UI/Icon/IconManager.cpp
+
+    ../UI/Icon/NanoSVG.cpp
 )
 
 target_link_libraries(

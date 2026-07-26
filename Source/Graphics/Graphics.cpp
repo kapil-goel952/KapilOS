@@ -2,10 +2,12 @@
 // KapilOS Graphics Engine
 // =======================================================
 
+
 #include "Graphics.h"
 #include "../AssetManager/AssetManager.h"
 #include "../UI/Theme/ThemeManager.h"
 #include "../UI/UIManager/UIManager.h"
+#include "../UI/Icon/IconManager.h"
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
@@ -18,6 +20,8 @@
 
 bool Graphics::Initialize()
 {
+
+
     if (SDL_Init(SDL_INIT_VIDEO) != 0)
     {
         std::cout << "SDL Initialization Failed\n";
@@ -51,12 +55,41 @@ bool Graphics::Initialize()
         SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC
     );
 
+    if(!m_renderer)
+    {
+        std::cout << "Renderer NULL\n";
+    }
+    else
+    {
+        std::cout << "Renderer OK\n";
+    }
+
     if (!m_renderer)
     {
         std::cout << "Renderer Creation Failed\n";
         return false;
     }
 
+    // -----------------------------
+    // Load Icons
+    // -----------------------------
+
+    m_homeIcon =
+    IconManager::LoadIcon(
+        m_renderer,
+        "house"
+    );
+
+    if(!m_homeIcon)
+    {
+        std::cout
+        << "Home icon failed\n";
+    }
+    else
+    {
+        std::cout
+        << "Home icon loaded\n";
+    }
     // -----------------------------
     // Dear ImGui Initialization
     // -----------------------------
@@ -114,20 +147,25 @@ void Graphics::Run()
 
     UIManager uiManager;
 
-    while (running)
+
+    while(running)
     {
-        while (SDL_PollEvent(&event))
+
+        while(SDL_PollEvent(&event))
         {
             ImGui_ImplSDL2_ProcessEvent(&event);
 
-            if (event.type == SDL_QUIT)
+
+            if(event.type == SDL_QUIT)
             {
                 running = false;
             }
         }
 
+
         int screenWidth;
         int screenHeight;
+
 
         SDL_GetWindowSize(
             m_window,
@@ -135,18 +173,33 @@ void Graphics::Run()
             &screenHeight
         );
 
+
+
+        // -----------------------------
+        // Start ImGui Frame
+        // -----------------------------
+
         ImGui_ImplSDLRenderer2_NewFrame();
 
         ImGui_ImplSDL2_NewFrame();
 
         ImGui::NewFrame();
 
+
+
         uiManager.Draw(
             screenWidth,
             screenHeight
         );
 
+
         ImGui::Render();
+
+
+
+        // -----------------------------
+        // Clear Screen
+        // -----------------------------
 
         SDL_SetRenderDrawColor(
             m_renderer,
@@ -156,11 +209,18 @@ void Graphics::Run()
             255
         );
 
+
         SDL_RenderClear(
             m_renderer
         );
 
-        if (m_wallpaper)
+
+
+        // -----------------------------
+        // Wallpaper
+        // -----------------------------
+
+        if(m_wallpaper)
         {
             SDL_RenderCopy(
                 m_renderer,
@@ -170,14 +230,54 @@ void Graphics::Run()
             );
         }
 
+
+
+        // -----------------------------
+        // ImGui Render
+        // -----------------------------
+
         ImGui_ImplSDLRenderer2_RenderDrawData(
             ImGui::GetDrawData(),
             m_renderer
         );
 
+
+
+
+        // -----------------------------
+        // ICON RENDER TEST
+        // -----------------------------
+
+        if(m_homeIcon)
+    {
+    SDL_Rect iconRect;
+
+    iconRect.x = 100;
+    iconRect.y = 100;
+    iconRect.w = 128;
+    iconRect.h = 128;
+
+
+    SDL_RenderCopy(
+        m_renderer,
+        m_homeIcon,
+        nullptr,
+        &iconRect
+        );
+      }
+
+
+
+
+        // -----------------------------
+        // Present
+        // -----------------------------
+
         SDL_RenderPresent(
             m_renderer
         );
+
+
     }
 }
 
@@ -187,6 +287,12 @@ void Graphics::Shutdown()
     {
         SDL_DestroyTexture(
             m_wallpaper
+        );
+    }
+    if(m_homeIcon)
+    {
+        SDL_DestroyTexture(
+            m_homeIcon
         );
     }
 

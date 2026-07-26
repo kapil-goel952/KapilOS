@@ -15,6 +15,8 @@ private:
 
     SDL_Texture* m_wallpaper = nullptr;
 
+    SDL_Texture* m_homeIcon = nullptr;
+
     SDL_Window* m_window = nullptr;
 
     SDL_Renderer* m_renderer = nullptr;
