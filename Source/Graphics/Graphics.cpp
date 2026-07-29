@@ -1,9 +1,9 @@
 // =======================================================
-// KapilOS Graphics Engine
+// KapilOS Graphics Engine v1
 // =======================================================
 
-
 #include "Graphics.h"
+
 #include "../AssetManager/AssetManager.h"
 #include "../UI/Theme/ThemeManager.h"
 #include "../UI/UIManager/UIManager.h"
@@ -18,91 +18,139 @@
 
 #include <iostream>
 
+// -------------------------------------------------------
+// Initialize Graphics Engine
+// -------------------------------------------------------
+
 bool Graphics::Initialize()
 {
-
+    //----------------------------------------------------
+    // SDL
+    //----------------------------------------------------
 
     if (SDL_Init(SDL_INIT_VIDEO) != 0)
     {
-        std::cout << "SDL Initialization Failed\n";
+        std::cout
+            << "SDL Initialization Failed\n";
+
         return false;
     }
+
+    //----------------------------------------------------
+    // SDL IMAGE
+    //----------------------------------------------------
 
     if (!(IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG)))
     {
-        std::cout << "SDL_image Initialization Failed\n";
+        std::cout
+            << "SDL_image Initialization Failed\n";
+
         return false;
     }
 
-    m_window = SDL_CreateWindow(
-        "KapilOS 0.0.1 Alpha",
-        SDL_WINDOWPOS_CENTERED,
-        SDL_WINDOWPOS_CENTERED,
-        1280,
-        720,
-        SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE
-    );
+    //----------------------------------------------------
+    // Window
+    //----------------------------------------------------
+
+    m_window =
+        SDL_CreateWindow(
+            "KapilOS 0.0.1 Alpha",
+            SDL_WINDOWPOS_CENTERED,
+            SDL_WINDOWPOS_CENTERED,
+            1280,
+            720,
+            SDL_WINDOW_SHOWN |
+            SDL_WINDOW_RESIZABLE
+        );
 
     if (!m_window)
     {
-        std::cout << "Window Creation Failed\n";
+        std::cout
+            << "Window Creation Failed\n";
+
         return false;
     }
 
-    m_renderer = SDL_CreateRenderer(
-        m_window,
-        -1,
-        SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC
-    );
+    //----------------------------------------------------
+    // Renderer
+    //----------------------------------------------------
 
-    if(!m_renderer)
-    {
-        std::cout << "Renderer NULL\n";
-    }
-    else
-    {
-        std::cout << "Renderer OK\n";
-    }
+    m_renderer =
+        SDL_CreateRenderer(
+            m_window,
+            -1,
+            SDL_RENDERER_ACCELERATED |
+            SDL_RENDERER_PRESENTVSYNC
+        );
 
     if (!m_renderer)
     {
-        std::cout << "Renderer Creation Failed\n";
+        std::cout
+            << "Renderer Creation Failed\n";
+
         return false;
     }
 
-    // -----------------------------
-    // Load Icons
-    // -----------------------------
+    std::cout
+        << "Renderer Initialized\n";
 
-    m_homeIcon =
-    IconManager::LoadIcon(
-        m_renderer,
-        "house"
-    );
+    //----------------------------------------------------
+    // Wallpaper
+    //----------------------------------------------------
 
-    if(!m_homeIcon)
+    m_wallpaper =
+        IMG_LoadTexture(
+            m_renderer,
+            AssetManager::GetWallpaper(
+                "wallpaper.jpg"
+            ).c_str()
+        );
+
+    if (!m_wallpaper)
     {
         std::cout
-        << "Home icon failed\n";
+            << "Wallpaper Load Failed\n";
     }
     else
     {
         std::cout
-        << "Home icon loaded\n";
+            << "Wallpaper Loaded\n";
     }
-    // -----------------------------
-    // Dear ImGui Initialization
-    // -----------------------------
+
+    //----------------------------------------------------
+    // Icons
+    //----------------------------------------------------
+
+    m_homeIcon =
+        IconManager::LoadIcon(
+            m_renderer,
+            "house"
+        );
+
+    if (!m_homeIcon)
+    {
+        std::cout
+            << "Home Icon Failed\n";
+    }
+    else
+    {
+        std::cout
+            << "Home Icon Loaded\n";
+    }
+
+    //----------------------------------------------------
+    // ImGui
+    //----------------------------------------------------
 
     IMGUI_CHECKVERSION();
 
     ImGui::CreateContext();
 
-    ImGuiIO& io = ImGui::GetIO();
+    ImGuiIO& io =
+        ImGui::GetIO();
 
-    io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
-
-    ImGui::GetIO();
+    io.ConfigFlags |=
+        ImGuiConfigFlags_DockingEnable;
 
     ImGui::StyleColorsDark();
 
@@ -117,28 +165,11 @@ bool Graphics::Initialize()
         m_renderer
     );
 
-    // -----------------------------
-    // Load Wallpaper
-    // -----------------------------
-
-    m_wallpaper = IMG_LoadTexture(
-    m_renderer,
-    AssetManager::GetWallpaper(
-        "wallpaper.jpg"
-        ).c_str()
-    );
-
-    if (!m_wallpaper)
-    {
-        std::cout
-            << "Failed to load wallpaper : "
-            << IMG_GetError()
-            << std::endl;
-    }
+    std::cout
+        << "Graphics Engine Ready\n";
 
     return true;
 }
-
 void Graphics::Run()
 {
     bool running = true;
@@ -249,23 +280,22 @@ void Graphics::Run()
         // -----------------------------
 
         if(m_homeIcon)
-    {
-    SDL_Rect iconRect;
+        {
+            SDL_Rect iconRect;
 
-    iconRect.x = 100;
-    iconRect.y = 100;
-    iconRect.w = 128;
-    iconRect.h = 128;
+            iconRect.x = 100;
+            iconRect.y = 100;
+            iconRect.w = 128;
+            iconRect.h = 128;
 
 
-    SDL_RenderCopy(
-        m_renderer,
-        m_homeIcon,
-        nullptr,
-        &iconRect
+            SDL_RenderCopy(
+            m_renderer,
+            m_homeIcon,
+            nullptr,
+            &iconRect
         );
-      }
-
+    }
 
 
 

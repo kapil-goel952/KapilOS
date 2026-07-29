@@ -12,34 +12,36 @@ enum class WindowState
     Zen
 };
 
-
 class WindowUI
 {
-    public:
+public:
 
-        WindowUI(
-            const std::string& title,
-            float x,
-            float y,
-            float width,
-            float height
-        );
+    WindowUI(
+        const std::string& title,
+        float x,
+        float y,
+        float width,
+        float height
+    );
 
-        void Draw();
+    bool Begin();
 
-     private:
+    void End();
 
-         std::string m_title;
+private:
 
-        float m_x;
-        float m_y;
+    std::string m_title;
 
-        float m_width;
-        float m_height;
+    float m_x;
+    float m_y;
 
-	WindowState m_state;
-        bool m_isOpen;
-        bool m_isFocused;
+    float m_width;
+    float m_height;
+
+    WindowState m_state;
+
+    bool m_isOpen;
+    bool m_isFocused;
 };
 
 #endif

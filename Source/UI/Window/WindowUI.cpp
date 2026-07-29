@@ -17,24 +17,25 @@ WindowUI::WindowUI(
 
     m_width = width;
     m_height = height;
+
     m_state = WindowState::Normal;
+
     m_isOpen = true;
     m_isFocused = false;
 }
 
-void WindowUI::Draw()
+bool WindowUI::Begin()
 {
-    if (!m_isOpen)
-    {
-        return;
-    }
+    if(!m_isOpen)
+        return false;
+
     ImGui::SetNextWindowPos(
-        ImVec2(m_x, m_y),
+        ImVec2(m_x,m_y),
         ImGuiCond_FirstUseEver
     );
 
     ImGui::SetNextWindowSize(
-        ImVec2(m_width, m_height),
+        ImVec2(m_width,m_height),
         ImGuiCond_FirstUseEver
     );
 
@@ -45,7 +46,11 @@ void WindowUI::Draw()
 
     m_isFocused = ImGui::IsWindowFocused();
 
-    ImGui::Text("KapilOS Window");
+    return true;
+}
 
+
+void WindowUI::End()
+{
     ImGui::End();
 }

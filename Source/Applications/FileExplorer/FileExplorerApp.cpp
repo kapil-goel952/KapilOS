@@ -21,14 +21,17 @@ FileExplorerApp::FileExplorerApp()
 
 void FileExplorerApp::Draw()
 {
-    window.Draw();
+    if(window.Begin())
+    {
+        ImGui::Text("This is File Explorer.");
 
-    ImGui::Text("This is File Explorer.");
+        ImGui::Separator();
 
-    ImGui::Separator();
+        ImGui::BulletText("Desktop");
+        ImGui::BulletText("Documents");
+        ImGui::BulletText("Downloads");
+        ImGui::BulletText("Pictures");
+    }
 
-    ImGui::BulletText("Desktop");
-    ImGui::BulletText("Documents");
-    ImGui::BulletText("Downloads");
-    ImGui::BulletText("Pictures");
+    window.End();
 }

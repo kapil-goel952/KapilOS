@@ -21,24 +21,16 @@ SettingsApp::SettingsApp()
 
 void SettingsApp::Draw()
 {
-    window.Draw();
+    if(window.Begin())
+    {
+        ImGui::Separator();
 
-    ImGui::Text("KapilOS Settings");
+        ImGui::Checkbox("Dark Theme",&darkTheme);
 
-    ImGui::Separator();
+        ImGui::Checkbox("Animations",&animations);
 
-    ImGui::Checkbox(
-        "Dark Theme",
-        &darkTheme
-    );
+        ImGui::Checkbox("Notifications",&notifications);
+    }
 
-    ImGui::Checkbox(
-        "Animations",
-         &animations
-    );
-
-    ImGui::Checkbox(
-        "Notifications",
-        &notifications
-    );
+    window.End();
 }
