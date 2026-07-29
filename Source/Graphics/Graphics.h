@@ -1,3 +1,5 @@
+#include "../UI/UIManager/UIManager.h"
+
 #ifndef GRAPHICS_H
 #define GRAPHICS_H
 
@@ -50,6 +52,8 @@ private:
     void RenderOverlay();
 
     void EndFrame();
+
+    UIManager uiManager;
 };
 
 #endif

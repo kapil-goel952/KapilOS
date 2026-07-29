@@ -10,11 +10,12 @@ class IconManager
 
 public:
 
-static SDL_Texture* LoadIcon(
-SDL_Renderer* renderer,
-const std::string& name
-);
-
+    static SDL_Texture* LoadIcon(
+        SDL_Renderer* renderer,
+        const std::string& name
+    );
+private:
+	DockUI dock;
 
 };
 

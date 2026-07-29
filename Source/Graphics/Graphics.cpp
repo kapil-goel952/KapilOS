@@ -106,7 +106,7 @@ bool Graphics::Initialize()
             ).c_str()
         );
 
-    if (!m_wallpaper)
+	    if (!m_wallpaper)
     {
         std::cout
             << "Wallpaper Load Failed\n";
@@ -165,11 +165,14 @@ bool Graphics::Initialize()
         m_renderer
     );
 
+    uiManager.Initialize(m_renderer);
+
     std::cout
         << "Graphics Engine Ready\n";
 
     return true;
 }
+
 void Graphics::Run()
 {
     bool running = true;
@@ -178,25 +181,28 @@ void Graphics::Run()
 
     UIManager uiManager;
 
-
-    while(running)
+    while (running)
     {
+        // --------------------------------
+        // Events
+        // --------------------------------
 
-        while(SDL_PollEvent(&event))
+        while (SDL_PollEvent(&event))
         {
             ImGui_ImplSDL2_ProcessEvent(&event);
 
-
-            if(event.type == SDL_QUIT)
+            if (event.type == SDL_QUIT)
             {
                 running = false;
             }
         }
 
+        // --------------------------------
+        // Window Size
+        // --------------------------------
 
         int screenWidth;
         int screenHeight;
-
 
         SDL_GetWindowSize(
             m_window,
@@ -204,11 +210,9 @@ void Graphics::Run()
             &screenHeight
         );
 
-
-
-        // -----------------------------
+        // --------------------------------
         // Start ImGui Frame
-        // -----------------------------
+        // --------------------------------
 
         ImGui_ImplSDLRenderer2_NewFrame();
 
@@ -216,21 +220,16 @@ void Graphics::Run()
 
         ImGui::NewFrame();
 
-
-
         uiManager.Draw(
             screenWidth,
             screenHeight
         );
 
-
         ImGui::Render();
 
-
-
-        // -----------------------------
+        // --------------------------------
         // Clear Screen
-        // -----------------------------
+        // --------------------------------
 
         SDL_SetRenderDrawColor(
             m_renderer,
@@ -240,18 +239,15 @@ void Graphics::Run()
             255
         );
 
-
         SDL_RenderClear(
             m_renderer
         );
 
+        // --------------------------------
+        // Draw Wallpaper
+        // --------------------------------
 
-
-        // -----------------------------
-        // Wallpaper
-        // -----------------------------
-
-        if(m_wallpaper)
+        if (m_wallpaper)
         {
             SDL_RenderCopy(
                 m_renderer,
@@ -261,25 +257,11 @@ void Graphics::Run()
             );
         }
 
+        // --------------------------------
+        // Draw Test Icon
+        // --------------------------------
 
-
-        // -----------------------------
-        // ImGui Render
-        // -----------------------------
-
-        ImGui_ImplSDLRenderer2_RenderDrawData(
-            ImGui::GetDrawData(),
-            m_renderer
-        );
-
-
-
-
-        // -----------------------------
-        // ICON RENDER TEST
-        // -----------------------------
-
-        if(m_homeIcon)
+        if (m_homeIcon)
         {
             SDL_Rect iconRect;
 
@@ -288,26 +270,30 @@ void Graphics::Run()
             iconRect.w = 128;
             iconRect.h = 128;
 
-
             SDL_RenderCopy(
-            m_renderer,
-            m_homeIcon,
-            nullptr,
-            &iconRect
+                m_renderer,
+                m_homeIcon,
+                nullptr,
+                &iconRect
+            );
+        }
+
+        // --------------------------------
+        // Draw ImGui
+        // --------------------------------
+
+        ImGui_ImplSDLRenderer2_RenderDrawData(
+            ImGui::GetDrawData(),
+            m_renderer
         );
-    }
 
-
-
-        // -----------------------------
+        // --------------------------------
         // Present
-        // -----------------------------
+        // --------------------------------
 
         SDL_RenderPresent(
             m_renderer
         );
-
-
     }
 }
 

@@ -1,6 +1,14 @@
+#include "../Icon/IconManager.h"
 #include "DockUI.h"
 
 #include "../../../ThirdParty/imgui/imgui.h"
+
+void DockUI::Initialize(SDL_Renderer* renderer)
+{
+    house  = IconManager::LoadIcon(renderer,"house");
+    folder = IconManager::LoadIcon(renderer,"folder");
+    gear   = IconManager::LoadIcon(renderer,"gear");
+}
 
 void DockUI::Draw(
     int screenWidth,
@@ -34,24 +42,24 @@ void DockUI::Draw(
         nullptr,
         flags
     );
-
-    ImGui::Button("🌐", ImVec2(55, 50));
-
-    ImGui::SameLine();
-
-    ImGui::Button("📁", ImVec2(55, 50));
+    ImGui::Image(
+        (ImTextureID)house,
+        ImVec2(40,40)
+    );
 
     ImGui::SameLine();
 
-    ImGui::Button("⚙", ImVec2(55, 50));
+    ImGui::Image(
+        (ImTextureID)folder,
+        ImVec2(40,40)
+    );
 
     ImGui::SameLine();
 
-    ImGui::Button("🖥", ImVec2(55, 50));
-
-    ImGui::SameLine();
-
-    ImGui::Button("🎵", ImVec2(55, 50));
+    ImGui::Image(
+        (ImTextureID)gear,
+        ImVec2(40,40)
+    );
 
     ImGui::End();
 }
