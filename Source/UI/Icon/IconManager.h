@@ -1,3 +1,4 @@
+#include <iostream>
 #ifndef ICON_MANAGER_H
 #define ICON_MANAGER_H
 
@@ -15,7 +16,7 @@ public:
         const std::string& name
     );
 private:
-	DockUI dock;
+
 
 };
 

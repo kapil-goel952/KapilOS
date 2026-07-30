@@ -5,6 +5,11 @@ UIManager::UIManager()
 {
 }
 
+void UIManager::Initialize(SDL_Renderer* renderer)
+{
+    dock.Initialize(renderer);
+}
+
 void UIManager::Draw(
     int screenWidth,
     int screenHeight

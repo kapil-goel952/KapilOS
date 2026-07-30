@@ -15,8 +15,26 @@ SDL_Texture* IconManager::LoadIcon(
     );
     std::cout << "Loading: " << path << std::endl;
 
-    return IMG_LoadTexture(
+    SDL_Texture* texture =
+    IMG_LoadTexture(
         renderer,
         path.c_str()
     );
+
+    if(texture)
+    {
+        std::cout
+        << "Texture OK\n";
+    }
+    else
+    {
+        std::cout
+            << "Texture FAILED\n";
+
+        std::cout
+            << IMG_GetError()
+            << "\n";
+    }
+
+    return texture;
 }

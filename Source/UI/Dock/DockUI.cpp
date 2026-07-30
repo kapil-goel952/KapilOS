@@ -5,9 +5,30 @@
 
 void DockUI::Initialize(SDL_Renderer* renderer)
 {
-    house  = IconManager::LoadIcon(renderer,"house");
+    house = IconManager::LoadIcon(renderer,"house");
+
+    if(house)
+        std::cout<<"House Loaded\n";
+    else
+        std::cout<<"House Failed\n";
+
     folder = IconManager::LoadIcon(renderer,"folder");
-    gear   = IconManager::LoadIcon(renderer,"gear");
+
+    if(folder)
+        std::cout<<"Folder Loaded\n";
+    else
+        std::cout<<"Folder Failed\n";
+
+    gear = IconManager::LoadIcon(renderer,"gear");
+
+    if(gear)
+        std::cout<<"Gear Loaded\n";
+    else
+        std::cout<<"Gear Failed\n";
+
+    SDL_SetTextureBlendMode(house, SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(folder, SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(gear, SDL_BLENDMODE_BLEND);
 }
 
 void DockUI::Draw(
@@ -42,21 +63,24 @@ void DockUI::Draw(
         nullptr,
         flags
     );
-    ImGui::Image(
+    ImGui::ImageButton(
+        "home",
         (ImTextureID)house,
         ImVec2(40,40)
     );
 
     ImGui::SameLine();
 
-    ImGui::Image(
+    ImGui::ImageButton(
+        "folder",
         (ImTextureID)folder,
         ImVec2(40,40)
     );
 
     ImGui::SameLine();
 
-    ImGui::Image(
+    ImGui::ImageButton(
+        "gear",
         (ImTextureID)gear,
         ImVec2(40,40)
     );

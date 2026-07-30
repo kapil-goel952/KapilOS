@@ -1,3 +1,4 @@
+#include <SDL2/SDL.h>
 #ifndef UI_MANAGER_H
 #define UI_MANAGER_H
 #include "../Widgets/Weather/WeatherWidget.h"
@@ -12,14 +13,17 @@
 
 class UIManager
 {
+
 public:
 
-    UIManager();
+    void Initialize(SDL_Renderer* renderer);
 
     void Draw(
         int screenWidth,
         int screenHeight
     );
+
+    UIManager();
 
 private:
     WeatherWidget weather;
