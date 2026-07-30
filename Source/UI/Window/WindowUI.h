@@ -27,6 +27,7 @@ public:
     bool Begin();
 
     void End();
+    bool IsOpen() const;
 
 private:
 

@@ -54,3 +54,7 @@ void WindowUI::End()
 {
     ImGui::End();
 }
+bool WindowUI::IsOpen() const
+{
+    return m_isOpen;
+}
