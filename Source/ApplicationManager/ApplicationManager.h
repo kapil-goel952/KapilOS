@@ -9,11 +9,15 @@
 class ApplicationManager
 {
 public:
+     ApplicationManager();
 
     void Add(std::unique_ptr<Application> app);
 
+    void OpenFileExplorer();
+
+    void OpenSettings();
+
     void Draw();
-    ApplicationManager();
 private:
 
     std::vector<std::unique_ptr<Application>> applications;

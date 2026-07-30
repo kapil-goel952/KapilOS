@@ -1,4 +1,9 @@
+#ifndef DOCK_UI_H
+#define DOCK_UI_H
+
+#include <SDL2/SDL.h>
 #include <functional>
+#include <string>
 
 class DockUI
 {

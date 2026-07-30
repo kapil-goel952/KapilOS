@@ -5,14 +5,26 @@
 
 ApplicationManager::ApplicationManager()
 {
-    Add(std::make_unique<FileExplorerApp>());
 
-    Add(std::make_unique<SettingsApp>());
 }
 
 void ApplicationManager::Add(std::unique_ptr<Application> app)
 {
     applications.push_back(std::move(app));
+}
+
+void ApplicationManager::OpenFileExplorer()
+{
+    Add(
+        std::make_unique<FileExplorerApp>()
+    );
+}
+
+void ApplicationManager::OpenSettings()
+{
+    Add(
+        std::make_unique<SettingsApp>()
+    );
 }
 
 void ApplicationManager::Draw()

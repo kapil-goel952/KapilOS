@@ -8,6 +8,38 @@ UIManager::UIManager()
 void UIManager::Initialize(SDL_Renderer* renderer)
 {
     dock.Initialize(renderer);
+
+    dock.SetLaunchCallback(
+
+        [this](const std::string& app)
+        {
+            if(app == "file")
+            {
+                applicationManager.OpenFileExplorer();
+            }
+
+            else if(app == "settings")
+            {
+                applicationManager.OpenSettings();
+            }
+
+            else if(app == "home")
+            {
+                // TODO
+            }
+
+            else if(app == "search")
+            {
+                // TODO
+            }
+
+            else if(app == "user")
+            {
+                // TODO
+            }
+        }
+
+    );
 }
 
 void UIManager::Draw(
