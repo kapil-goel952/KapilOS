@@ -136,6 +136,11 @@ bool Graphics::Initialize()
     {
         std::cout
             << "Home Icon Loaded\n";
+
+	 SDL_SetTextureBlendMode(
+            m_homeIcon,
+            SDL_BLENDMODE_BLEND
+        );
     }
 
     //----------------------------------------------------
@@ -179,7 +184,7 @@ void Graphics::Run()
 
     SDL_Event event;
 
-    UIManager uiManager;
+
 
     while (running)
     {
@@ -260,23 +265,6 @@ void Graphics::Run()
         // --------------------------------
         // Draw Test Icon
         // --------------------------------
-
-        if (m_homeIcon)
-        {
-            SDL_Rect iconRect;
-
-            iconRect.x = 100;
-            iconRect.y = 100;
-            iconRect.w = 128;
-            iconRect.h = 128;
-
-            SDL_RenderCopy(
-                m_renderer,
-                m_homeIcon,
-                nullptr,
-                &iconRect
-            );
-        }
 
         // --------------------------------
         // Draw ImGui
