@@ -25,6 +25,9 @@ void DockUI::Initialize(SDL_Renderer* renderer)
         std::cout<<"Gear Loaded\n";
     else
         std::cout<<"Gear Failed\n";
+    search = IconManager::LoadIcon(renderer,"search");
+
+    user   = IconManager::LoadIcon(renderer,"user");
 
     SDL_SetTextureBlendMode(house, SDL_BLENDMODE_BLEND);
     SDL_SetTextureBlendMode(folder, SDL_BLENDMODE_BLEND);
@@ -63,27 +66,51 @@ void DockUI::Draw(
         nullptr,
         flags
     );
-    ImGui::ImageButton(
-        "home",
-        (ImTextureID)house,
-        ImVec2(40,40)
-    );
+
+    if(ImGui::ImageButton("home",(ImTextureID)house,ImVec2(40,40)))
+    {
+        if(launchApp)
+            launchApp("home");
+    }
 
     ImGui::SameLine();
 
-    ImGui::ImageButton(
-        "folder",
-        (ImTextureID)folder,
-        ImVec2(40,40)
-    );
+    if(ImGui::ImageButton("folder",(ImTextureID)folder,ImVec2(40,40)))
+    {
+        if(launchApp)
+             launchApp("file");
+    }
 
     ImGui::SameLine();
 
-    ImGui::ImageButton(
-        "gear",
-        (ImTextureID)gear,
-        ImVec2(40,40)
-    );
+    if(ImGui::ImageButton("gear",(ImTextureID)gear,ImVec2(40,40)))
+    {
+        if(launchApp)
+            launchApp("settings");
+    }
+
+    ImGui::SameLine();
+
+    if(ImGui::ImageButton("search",(ImTextureID)search,ImVec2(40,40)))
+    {
+        if(launchApp)
+            launchApp("search");
+    }
+
+    ImGui::SameLine();
+
+    if(ImGui::ImageButton("user",(ImTextureID)user,ImVec2(40,40)))
+    {
+        if(launchApp)
+            launchApp("user");
+    }
 
     ImGui::End();
+}
+
+void DockUI::SetLaunchCallback(
+    std::function<void(const std::string&)> callback
+)
+{
+    launchApp = callback;
 }

@@ -1,7 +1,4 @@
-#ifndef DOCK_UI_H
-#define DOCK_UI_H
-
-#include <SDL2/SDL.h>
+#include <functional>
 
 class DockUI
 {
@@ -14,11 +11,17 @@ public:
         int screenHeight
     );
 
+    void SetLaunchCallback(
+        std::function<void(const std::string&)> callback
+    );
+
 private:
 
-    SDL_Texture* house=nullptr;
-    SDL_Texture* folder=nullptr;
-    SDL_Texture* gear=nullptr;
-};
+    std::function<void(const std::string&)> launchApp;
 
-#endif
+    SDL_Texture* house = nullptr;
+    SDL_Texture* folder = nullptr;
+    SDL_Texture* gear = nullptr;
+    SDL_Texture* search = nullptr;
+    SDL_Texture* user = nullptr;
+};
