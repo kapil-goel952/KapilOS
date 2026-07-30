@@ -31,7 +31,9 @@ void FileExplorerApp::Draw()
         ImGui::BulletText("Documents");
         ImGui::BulletText("Downloads");
         ImGui::BulletText("Pictures");
+
+	window.End();
     }
 
-    window.End();
+
 }

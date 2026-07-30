@@ -30,7 +30,10 @@ void SettingsApp::Draw()
         ImGui::Checkbox("Animations",&animations);
 
         ImGui::Checkbox("Notifications",&notifications);
+
+	window.End();
+
     }
 
-    window.End();
+
 }
