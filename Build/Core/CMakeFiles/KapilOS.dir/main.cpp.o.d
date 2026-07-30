@@ -3,13 +3,6 @@ CMakeFiles/KapilOS.dir/main.cpp.o: \
  /usr/include/stdc-predef.h \
  /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/Graphics.h \
  /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/UIManager.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Widgets/Weather/WeatherWidget.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Widgets/Calendar/CalendarWidget.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Widgets/Status/StatusWidget.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Desktop/DesktopUI.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../TopBar/TopBarUI.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Sidebar/SidebarUI.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Dock/DockUI.h \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
@@ -235,6 +228,13 @@ CMakeFiles/KapilOS.dir/main.cpp.o: \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h \
+ /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Widgets/Weather/WeatherWidget.h \
+ /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Widgets/Calendar/CalendarWidget.h \
+ /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Widgets/Status/StatusWidget.h \
+ /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Desktop/DesktopUI.h \
+ /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../TopBar/TopBarUI.h \
+ /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Sidebar/SidebarUI.h \
+ /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../Dock/DockUI.h \
  /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/ApplicationManager.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/c++/13/bits/allocator.h \
