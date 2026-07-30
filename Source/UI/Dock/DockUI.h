@@ -24,9 +24,11 @@ private:
 
     std::function<void(const std::string&)> launchApp;
 
-    SDL_Texture* house = nullptr;
+    SDL_Texture* house  = nullptr;
     SDL_Texture* folder = nullptr;
-    SDL_Texture* gear = nullptr;
+    SDL_Texture* gear   = nullptr;
     SDL_Texture* search = nullptr;
-    SDL_Texture* user = nullptr;
+    SDL_Texture* user   = nullptr;
 };
+
+#endif
