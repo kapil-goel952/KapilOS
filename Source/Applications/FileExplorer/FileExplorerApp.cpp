@@ -21,6 +21,9 @@ FileExplorerApp::FileExplorerApp()
 
 void FileExplorerApp::Draw()
 {
+    if(!IsOpen())
+        return;
+
     if(window.Begin())
     {
         ImGui::Text("This is File Explorer.");
@@ -32,8 +35,11 @@ void FileExplorerApp::Draw()
         ImGui::BulletText("Downloads");
         ImGui::BulletText("Pictures");
 
-	window.End();
+        window.End();
     }
 
-
+    if(!window.IsOpen())
+    {
+        Close();
+    }
 }
