@@ -290,6 +290,10 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/ApplicationManager.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/../Applications/Terminal/TerminalApp.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/../Applications/Terminal/../Application/Application.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/../Applications/Terminal/../../UI/Window/WindowUI.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/../Applications/Terminal/../../Core/Shell/Shell.h \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
