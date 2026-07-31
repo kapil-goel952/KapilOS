@@ -50,10 +50,6 @@ void ApplicationManager::OpenMusic()
     std::system("rhythmbox &");
 }
 
-void ApplicationManager::OpenVSCode()
-{
-    std::system("code &");
-}
 
 void ApplicationManager::Draw()
 {

@@ -24,6 +24,8 @@ add_executable(KapilOS
     Logger.cpp
     Config.cpp
 
+    ../Core/Shell/Shell.cpp
+
     ../Graphics/Graphics.cpp
 
     ../UI/Desktop/DesktopUI.cpp
@@ -52,6 +54,8 @@ add_executable(KapilOS
     ../Applications/FileExplorer/FileExplorerApp.cpp
     ../Applications/Settings/SettingsApp.cpp
     ../Applications/CodeEditor/CodeEditorApp.cpp
+    ../Applications/Terminal/TerminalApp.cpp
+
 
     ../AssetManager/AssetManager.cpp
 
