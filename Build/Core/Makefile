@@ -729,6 +729,30 @@ home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.cpp.s
 
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.o: home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o
+
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.i: home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i
+
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.s: home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.s
+
 home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o: home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o
 
@@ -981,6 +1005,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.s"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.o"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.i"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.s"
 	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o"
 	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.i"
 	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.s"

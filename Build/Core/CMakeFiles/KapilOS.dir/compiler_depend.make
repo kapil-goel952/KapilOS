@@ -1762,6 +1762,12 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Theme/ThemeManager.h \
   /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.h \
   /home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.h \
@@ -3287,6 +3293,12 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imconfig.h \
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
   /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.h \
   /home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.h \
@@ -5542,6 +5554,12 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui_wid
 
 CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/main.cpp \
   /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.h \
+  /home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.h \
   /home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.h \
