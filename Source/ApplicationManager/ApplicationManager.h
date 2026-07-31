@@ -5,22 +5,42 @@
 #include <vector>
 
 #include "../Applications/Application/Application.h"
+#include "../Applications/FileExplorer/FileExplorerApp.h"
+#include "../Applications/Settings/SettingsApp.h"
+
+class FileExplorerApp;
+class SettingsApp;
 
 class ApplicationManager
 {
 public:
-     ApplicationManager();
 
-    void Add(std::unique_ptr<Application> app);
+    ApplicationManager();
+
+    void Draw();
 
     void OpenFileExplorer();
 
     void OpenSettings();
 
-    void Draw();
+    void OpenBrowser();
+
+    void OpenTerminal();
+
+    void OpenCodeEditor();
+
+    void OpenCalculator();
+
+    void OpenMusic();
+
+    void OpenVSCode();
+
 private:
 
-    std::vector<std::unique_ptr<Application>> applications;
+    std::unique_ptr<FileExplorerApp> fileExplorer;
+
+    std::unique_ptr<SettingsApp> settings;
+    std::unique_ptr<CodeEditorApp> codeEditor;
 };
 
 #endif

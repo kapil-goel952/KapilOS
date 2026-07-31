@@ -1,36 +1,72 @@
+#include <cstdlib>
 #include "ApplicationManager.h"
 
 #include "../Applications/FileExplorer/FileExplorerApp.h"
 #include "../Applications/Settings/SettingsApp.h"
+#include "../Applications/CodeEditor/CodeEditorApp.h"
 
 ApplicationManager::ApplicationManager()
 {
+    fileExplorer = std::make_unique<FileExplorerApp>();
 
-}
+    settings = std::make_unique<SettingsApp>();
 
-void ApplicationManager::Add(std::unique_ptr<Application> app)
-{
-    applications.push_back(std::move(app));
+    codeEditor = std::make_unique<CodeEditorApp>();
 }
 
 void ApplicationManager::OpenFileExplorer()
 {
-    Add(
-        std::make_unique<FileExplorerApp>()
-    );
+    fileExplorer->Open();
 }
 
 void ApplicationManager::OpenSettings()
 {
-    Add(
-        std::make_unique<SettingsApp>()
-    );
+    settings->Open();
+}
+void ApplicationManager::OpenBrowser()
+{
+    std::system("/opt/firefox/firefox >/dev/null 2>&1 &");
+}
+
+void ApplicationManager::OpenTerminal()
+{
+    std::system("gnome-terminal &");
+}
+
+void ApplicationManager::OpenCodeEditor()
+{
+    codeEditor->Open();
+}
+
+void ApplicationManager::OpenCalculator()
+{
+    std::system("gnome-calculator &");
+}
+
+void ApplicationManager::OpenMusic()
+{
+    std::system("rhythmbox &");
+}
+
+void ApplicationManager::OpenVSCode()
+{
+    std::system("code &");
 }
 
 void ApplicationManager::Draw()
 {
-    for (auto& app : applications)
+    if(fileExplorer->IsOpen())
     {
-        app->Draw();
+        fileExplorer->Draw();
+    }
+
+    if(settings->IsOpen())
+    {
+        settings->Draw();
+    }
+
+    if(codeEditor->IsOpen())
+    {
+        codeEditor->Draw();
     }
 }
