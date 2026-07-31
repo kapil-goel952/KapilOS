@@ -37,6 +37,35 @@ void UIManager::Initialize(SDL_Renderer* renderer)
             {
                 // TODO
             }
+	    else if(app == "browser")
+   	    {
+    	        applicationManager.OpenBrowser();
+    	    }
+
+   	    else if(app == "terminal")
+    	    {
+    	        applicationManager.OpenTerminal();
+   	    }
+
+            else if(app == "editor")
+            {
+	        applicationManager.OpenEditor();
+            }
+
+	    else if(app == "calculator")
+    	    {
+    	        applicationManager.OpenCalculator();
+    	    }
+
+	    else if(app == "music")
+            {
+                applicationManager.OpenMusic();
+	    }
+
+	    else if(app == "code")
+		{
+                    applicationManager.OpenCodeEditor();
+            }
         }
 
     );

@@ -11,7 +11,7 @@ SDL_Texture* IconManager::LoadIcon(
 {
     std::string path =
     AssetManager::GetIcon(
-        "FontAwesome/" + name + ".png"
+         name + ".png"
     );
     std::cout << "Loading: " << path << std::endl;
 

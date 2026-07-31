@@ -1,4 +1,4 @@
-#ifndef DOCK_UI_H
+ #ifndef DOCK_UI_H
 #define DOCK_UI_H
 
 #include <SDL2/SDL.h>
@@ -26,9 +26,14 @@ private:
 
     SDL_Texture* house  = nullptr;
     SDL_Texture* folder = nullptr;
-    SDL_Texture* gear   = nullptr;
+    SDL_Texture* settings   = nullptr;
     SDL_Texture* search = nullptr;
     SDL_Texture* user   = nullptr;
+    SDL_Texture* terminal = nullptr;
+    SDL_Texture* calculator = nullptr;
+    SDL_Texture* browser = nullptr;
+    SDL_Texture* code = nullptr;
+    SDL_Texture* music = nullptr;
 };
 
 #endif

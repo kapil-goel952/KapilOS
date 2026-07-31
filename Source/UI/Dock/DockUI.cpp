@@ -1,37 +1,41 @@
+#include <iostream>
 #include "../Icon/IconManager.h"
 #include "DockUI.h"
-
+//afhkjdsfhlkjashfkjasdgfjg
 #include "../../../ThirdParty/imgui/imgui.h"
 
 void DockUI::Initialize(SDL_Renderer* renderer)
 {
+
+    
+
     house = IconManager::LoadIcon(renderer,"house");
-
-    if(house)
-        std::cout<<"House Loaded\n";
-    else
-        std::cout<<"House Failed\n";
-
     folder = IconManager::LoadIcon(renderer,"folder");
-
-    if(folder)
-        std::cout<<"Folder Loaded\n";
-    else
-        std::cout<<"Folder Failed\n";
-
-    gear = IconManager::LoadIcon(renderer,"gear");
-
-    if(gear)
-        std::cout<<"Gear Loaded\n";
-    else
-        std::cout<<"Gear Failed\n";
+    settings = IconManager::LoadIcon(renderer,"settings");
     search = IconManager::LoadIcon(renderer,"search");
-
     user   = IconManager::LoadIcon(renderer,"user");
+    terminal    = IconManager::LoadIcon(renderer,"terminal");
+    calculator = IconManager::LoadIcon(renderer,"calculator");
+    browser = IconManager::LoadIcon(renderer,"globe");
+    code = IconManager::LoadIcon(renderer,"code");
+    music = IconManager::LoadIcon(renderer,"music");
 
-    SDL_SetTextureBlendMode(house, SDL_BLENDMODE_BLEND);
-    SDL_SetTextureBlendMode(folder, SDL_BLENDMODE_BLEND);
-    SDL_SetTextureBlendMode(gear, SDL_BLENDMODE_BLEND);
+    std::cout << "Dock Icons Loaded\n";
+
+    SDL_SetTextureColorMod(house,255,255,255);
+    SDL_SetTextureAlphaMod(house,255);
+
+    SDL_SetTextureBlendMode(house,SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(folder,SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(search,SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(settings,SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(user,SDL_BLENDMODE_BLEND);
+
+    SDL_SetTextureBlendMode(terminal,SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(calculator,SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(browser,SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(code,SDL_BLENDMODE_BLEND);
+    SDL_SetTextureBlendMode(music,SDL_BLENDMODE_BLEND);
 }
 
 void DockUI::Draw(
@@ -39,13 +43,18 @@ void DockUI::Draw(
     int screenHeight
 )
 {
-    ImGuiWindowFlags flags =
-        ImGuiWindowFlags_NoDecoration |
-        ImGuiWindowFlags_NoMove |
-        ImGuiWindowFlags_NoResize;
 
-    const float dockWidth = 420.0f;
-    const float dockHeight = 70.0f;
+
+    ImGuiWindowFlags flags =
+		ImGuiWindowFlags_NoDecoration |
+		ImGuiWindowFlags_NoMove |
+		ImGuiWindowFlags_NoResize |
+		ImGuiWindowFlags_NoSavedSettings;
+    const int iconCount = 10;
+    const float iconSize = 40.0f;
+    const float spacing = ImGui::GetStyle().ItemSpacing.x;
+    const float dockWidth = 800.0f;
+    const float dockHeight = 80.0f;
 
     ImGui::SetNextWindowPos(
         ImVec2(
@@ -67,6 +76,8 @@ void DockUI::Draw(
         flags
     );
 
+
+
     if(ImGui::ImageButton("home",(ImTextureID)house,ImVec2(40,40)))
     {
         if(launchApp)
@@ -83,7 +94,7 @@ void DockUI::Draw(
 
     ImGui::SameLine();
 
-    if(ImGui::ImageButton("gear",(ImTextureID)gear,ImVec2(40,40)))
+    if(ImGui::ImageButton("settings",(ImTextureID)settings,ImVec2(40,40)))
     {
         if(launchApp)
             launchApp("settings");
@@ -103,6 +114,46 @@ void DockUI::Draw(
     {
         if(launchApp)
             launchApp("user");
+    }
+
+    ImGui::SameLine();
+
+    if(ImGui::ImageButton("browser",(ImTextureID)browser,ImVec2(40,40)))
+    {
+        if(launchApp)
+            launchApp("browser");
+    }
+
+    ImGui::SameLine();
+
+    if(ImGui::ImageButton("terminal",(ImTextureID)terminal,ImVec2(40,40)))
+    {
+        if(launchApp)
+            launchApp("terminal");
+    }
+
+    ImGui::SameLine();
+
+    if(ImGui::ImageButton("calculator",(ImTextureID)calculator,ImVec2(40,40)))
+    {
+        if(launchApp)
+            launchApp("calculator");
+    }
+
+    ImGui::SameLine();
+
+    if(ImGui::ImageButton("code",(ImTextureID)code,ImVec2(40,40)))
+    {
+        if(launchApp)
+            launchApp("code");
+    }
+
+    ImGui::SameLine();
+
+    if(ImGui::ImageButton("music",(ImTextureID)music,ImVec2(40,40)))
+    {
+       if(launchApp)
+           launchApp("music");
     }
 
     ImGui::End();
