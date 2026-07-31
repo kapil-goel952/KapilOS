@@ -177,6 +177,30 @@ Logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
 
+Shell/Shell.o: Shell/Shell.cpp.o
+.PHONY : Shell/Shell.o
+
+# target to build an object file
+Shell/Shell.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Shell/Shell.cpp.o
+.PHONY : Shell/Shell.cpp.o
+
+Shell/Shell.i: Shell/Shell.cpp.i
+.PHONY : Shell/Shell.i
+
+# target to preprocess a source file
+Shell/Shell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Shell/Shell.cpp.i
+.PHONY : Shell/Shell.cpp.i
+
+Shell/Shell.s: Shell/Shell.cpp.s
+.PHONY : Shell/Shell.s
+
+# target to generate assembly for a file
+Shell/Shell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Shell/Shell.cpp.s
+.PHONY : Shell/Shell.cpp.s
+
 SystemInfo.o: SystemInfo.cpp.o
 .PHONY : SystemInfo.o
 
@@ -344,6 +368,30 @@ home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.s: home/
 home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.o: home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.i: home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.s: home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.s
 
 home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o: home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o
@@ -960,6 +1008,9 @@ help:
 	@echo "... Logger.o"
 	@echo "... Logger.i"
 	@echo "... Logger.s"
+	@echo "... Shell/Shell.o"
+	@echo "... Shell/Shell.i"
+	@echo "... Shell/Shell.s"
 	@echo "... SystemInfo.o"
 	@echo "... SystemInfo.i"
 	@echo "... SystemInfo.s"
@@ -981,6 +1032,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.s"
