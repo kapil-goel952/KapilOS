@@ -323,12 +323,6 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Application/Application.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/FileExplorer/FileExplorerApp.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/FileExplorer/../Application/Application.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/FileExplorer/../../UI/Window/WindowUI.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Settings/SettingsApp.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Settings/../Application/Application.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Settings/../../UI/Window/WindowUI.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../AssetManager/AssetManager.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/Theme/ThemeManager.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/Theme/../../../ThirdParty/imgui/imgui.h \

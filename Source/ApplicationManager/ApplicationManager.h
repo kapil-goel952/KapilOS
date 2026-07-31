@@ -3,10 +3,7 @@
 
 #include <memory>
 #include <vector>
-
 #include "../Applications/Application/Application.h"
-#include "../Applications/FileExplorer/FileExplorerApp.h"
-#include "../Applications/Settings/SettingsApp.h"
 
 class FileExplorerApp;
 class SettingsApp;

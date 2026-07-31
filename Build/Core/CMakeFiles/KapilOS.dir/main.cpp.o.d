@@ -322,10 +322,4 @@ CMakeFiles/KapilOS.dir/main.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Application/Application.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/../Applications/FileExplorer/FileExplorerApp.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/../Applications/FileExplorer/../Application/Application.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/../Applications/FileExplorer/../../UI/Window/WindowUI.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Settings/SettingsApp.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Settings/../Application/Application.h \
- /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Settings/../../UI/Window/WindowUI.h
+ /home/kapil849/Projects/KapilOS/Source/Core/../Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Application/Application.h
