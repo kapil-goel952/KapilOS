@@ -273,6 +273,30 @@ home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o: home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.i: home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.s: home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o: home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o
 
@@ -948,6 +972,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.s"

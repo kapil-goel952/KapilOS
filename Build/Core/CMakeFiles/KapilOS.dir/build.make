@@ -461,10 +461,24 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settin
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
 
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o: CMakeFiles/KapilOS.dir/flags.make
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o: /home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o -c /home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp > CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i
+
+CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s
+
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o: /home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o -c /home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetM
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o -c /home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.i: cmake_force
@@ -492,7 +506,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UICons
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o -c /home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.i: cmake_force
@@ -506,7 +520,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o: /home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.o -c /home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp.i: cmake_force
@@ -520,7 +534,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/NanoSVG.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o: CMakeFiles/KapilOS.dir/flags.make
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o: /home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o: CMakeFiles/KapilOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o -MF CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o.d -o CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o -c /home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp
 
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i: cmake_force
@@ -561,6 +575,7 @@ KapilOS_OBJECTS = \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o" \
+"CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o" \
 "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o" \
@@ -598,6 +613,7 @@ KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applicatio
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o
+KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Constants/UIConstants.cpp.o
 KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp.o
@@ -606,7 +622,7 @@ KapilOS: CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiC
 KapilOS: CMakeFiles/KapilOS.dir/build.make
 KapilOS: /usr/lib/x86_64-linux-gnu/libSDL2.so
 KapilOS: CMakeFiles/KapilOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable KapilOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kapil849/Projects/KapilOS/Build/Core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable KapilOS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KapilOS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

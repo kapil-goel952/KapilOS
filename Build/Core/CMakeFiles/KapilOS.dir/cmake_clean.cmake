@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o.d"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o"
