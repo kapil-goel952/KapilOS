@@ -11,6 +11,7 @@ include_directories(
 
     ../../ThirdParty/imgui
     ../../ThirdParty/imgui/backends
+    ../../ThirdParty/ImGuiColorTextEdit
 )
 
 set(CMAKE_CXX_STANDARD 17)
@@ -50,6 +51,7 @@ add_executable(KapilOS
     ../Applications/Application/Application.cpp
     ../Applications/FileExplorer/FileExplorerApp.cpp
     ../Applications/Settings/SettingsApp.cpp
+    ../Applications/CodeEditor/CodeEditorApp.cpp
 
     ../AssetManager/AssetManager.cpp
 
@@ -58,6 +60,8 @@ add_executable(KapilOS
     ../UI/Icon/IconManager.cpp
 
     ../UI/Icon/NanoSVG.cpp
+
+    ../../ThirdParty/ImGuiColorTextEdit/TextEditor.cpp
 )
 
 target_link_libraries(

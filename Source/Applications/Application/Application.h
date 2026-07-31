@@ -22,7 +22,7 @@ public:
 protected:
 
     std::string name;
-    bool m_open = true;
+    bool m_open = false;
 };
 
 #endif

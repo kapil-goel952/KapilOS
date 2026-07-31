@@ -13,7 +13,7 @@ std::string AssetManager::GetIcon(
     const std::string& fileName
 )
 {
-    return "../../Assets/Icons/" + fileName;
+    return "../../Assets/Icons/PNG/" + fileName;
 }
 
 std::string AssetManager::GetFont(

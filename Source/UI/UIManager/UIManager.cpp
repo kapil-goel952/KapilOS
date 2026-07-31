@@ -47,10 +47,7 @@ void UIManager::Initialize(SDL_Renderer* renderer)
     	        applicationManager.OpenTerminal();
    	    }
 
-            else if(app == "editor")
-            {
-	        applicationManager.OpenEditor();
-            }
+
 
 	    else if(app == "calculator")
     	    {

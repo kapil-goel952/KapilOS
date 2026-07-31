@@ -225,63 +225,46 @@ void Graphics::Run()
 
         ImGui::NewFrame();
 
-        uiManager.Draw(
-            screenWidth,
-            screenHeight
-        );
+uiManager.Draw(
+    screenWidth,
+    screenHeight
+);
 
-        ImGui::Render();
+ImGui::Render();
 
-        // --------------------------------
-        // Clear Screen
-        // --------------------------------
+SDL_SetRenderDrawColor(
+    m_renderer,
+    30,
+    30,
+    35,
+    255
+);
 
-        SDL_SetRenderDrawColor(
-            m_renderer,
-            30,
-            30,
-            35,
-            255
-        );
+SDL_RenderClear(
+    m_renderer
+);
 
-        SDL_RenderClear(
-            m_renderer
-        );
 
-        // --------------------------------
-        // Draw Wallpaper
-        // --------------------------------
+if (m_wallpaper)
+{
+    SDL_RenderCopy(
+        m_renderer,
+        m_wallpaper,
+        nullptr,
+        nullptr
+    );
+}
 
-        if (m_wallpaper)
-        {
-            SDL_RenderCopy(
-                m_renderer,
-                m_wallpaper,
-                nullptr,
-                nullptr
-            );
-        }
 
-        // --------------------------------
-        // Draw Test Icon
-        // --------------------------------
+ImGui_ImplSDLRenderer2_RenderDrawData(
+    ImGui::GetDrawData(),
+    m_renderer
+);
 
-        // --------------------------------
-        // Draw ImGui
-        // --------------------------------
 
-        ImGui_ImplSDLRenderer2_RenderDrawData(
-            ImGui::GetDrawData(),
-            m_renderer
-        );
-
-        // --------------------------------
-        // Present
-        // --------------------------------
-
-        SDL_RenderPresent(
-            m_renderer
-        );
+SDL_RenderPresent(
+    m_renderer
+);
     }
 }
 

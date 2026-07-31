@@ -10,12 +10,16 @@
 
 class FileExplorerApp;
 class SettingsApp;
+class CodeEditorApp;
 
 class ApplicationManager
 {
 public:
 
     ApplicationManager();
+
+    ~ApplicationManager();
+
 
     void Draw();
 
@@ -33,7 +37,7 @@ public:
 
     void OpenMusic();
 
-    void OpenVSCode();
+
 
 private:
 
