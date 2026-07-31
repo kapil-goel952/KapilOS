@@ -14,6 +14,8 @@ ApplicationManager::ApplicationManager()
     codeEditor = std::make_unique<CodeEditorApp>();
 }
 
+ApplicationManager::~ApplicationManager() = default;
+
 void ApplicationManager::OpenFileExplorer()
 {
     fileExplorer->Open();
