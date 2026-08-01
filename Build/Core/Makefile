@@ -129,6 +129,30 @@ KapilOS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/build
 .PHONY : KapilOS/fast
 
+BrowserEngine/BrowserEngine.o: BrowserEngine/BrowserEngine.cpp.o
+.PHONY : BrowserEngine/BrowserEngine.o
+
+# target to build an object file
+BrowserEngine/BrowserEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/BrowserEngine/BrowserEngine.cpp.o
+.PHONY : BrowserEngine/BrowserEngine.cpp.o
+
+BrowserEngine/BrowserEngine.i: BrowserEngine/BrowserEngine.cpp.i
+.PHONY : BrowserEngine/BrowserEngine.i
+
+# target to preprocess a source file
+BrowserEngine/BrowserEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/BrowserEngine/BrowserEngine.cpp.i
+.PHONY : BrowserEngine/BrowserEngine.cpp.i
+
+BrowserEngine/BrowserEngine.s: BrowserEngine/BrowserEngine.cpp.s
+.PHONY : BrowserEngine/BrowserEngine.s
+
+# target to generate assembly for a file
+BrowserEngine/BrowserEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/BrowserEngine/BrowserEngine.cpp.s
+.PHONY : BrowserEngine/BrowserEngine.cpp.s
+
 CalculatorEngine/CalculatorEngine.o: CalculatorEngine/CalculatorEngine.cpp.o
 .PHONY : CalculatorEngine/CalculatorEngine.o
 
@@ -320,6 +344,30 @@ home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s: ho
 home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.o: home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.i: home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.s: home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.s
 
 home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o: home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o
@@ -1050,6 +1098,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KapilOS"
+	@echo "... BrowserEngine/BrowserEngine.o"
+	@echo "... BrowserEngine/BrowserEngine.i"
+	@echo "... BrowserEngine/BrowserEngine.s"
 	@echo "... CalculatorEngine/CalculatorEngine.o"
 	@echo "... CalculatorEngine/CalculatorEngine.i"
 	@echo "... CalculatorEngine/CalculatorEngine.s"
@@ -1074,6 +1125,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.s"

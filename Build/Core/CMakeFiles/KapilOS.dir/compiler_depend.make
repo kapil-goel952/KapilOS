@@ -1472,8 +1472,10 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calcul
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
+  /usr/include/c++/13/algorithm \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/basic_string.h \
@@ -1502,15 +1504,19 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calcul
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
@@ -1531,6 +1537,8 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calcul
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -7891,9 +7899,15 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 
 /home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp:
 
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h:
+
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
 /usr/include/c++/13/cstring:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
 /home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp:
 
@@ -8175,13 +8189,9 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h:
 
-/usr/include/c++/13/tr1/bessel_function.tcc:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h:
+/usr/include/c++/13/algorithm:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
-
-/usr/include/c++/13/algorithm:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -8276,8 +8286,6 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /home/kapil849/Projects/KapilOS/Source/UI/Widgets/Status/StatusWidget.cpp:
 
 /home/kapil849/Projects/KapilOS/Source/UI/Widgets/Weather/WeatherWidget.cpp:
-
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/13/ratio:
 

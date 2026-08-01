@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/KapilOS.dir/BrowserEngine/BrowserEngine.cpp.o"
+  "CMakeFiles/KapilOS.dir/BrowserEngine/BrowserEngine.cpp.o.d"
   "CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.o"
   "CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.o.d"
   "CMakeFiles/KapilOS.dir/Config.cpp.o"
@@ -15,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o.d"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o"
+  "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o.d"
   "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o"
