@@ -12,6 +12,7 @@ include_directories(
     ../../ThirdParty/imgui
     ../../ThirdParty/imgui/backends
     ../../ThirdParty/ImGuiColorTextEdit
+
 )
 
 set(CMAKE_CXX_STANDARD 17)
@@ -42,6 +43,7 @@ add_executable(KapilOS
     ../../ThirdParty/imgui/imgui_tables.cpp
     ../../ThirdParty/imgui/imgui_widgets.cpp
 
+
     ../UI/Widgets/Weather/WeatherWidget.cpp
     ../UI/Widgets/Button/KapilButton.cpp
     ../UI/Widgets/Calendar/CalendarWidget.cpp
@@ -71,6 +73,8 @@ add_executable(KapilOS
     ../UI/Icon/NanoSVG.cpp
 
     ../../ThirdParty/ImGuiColorTextEdit/TextEditor.cpp
+
+
 )
 
 target_link_libraries(
