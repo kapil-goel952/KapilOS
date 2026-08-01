@@ -58,6 +58,8 @@ add_executable(KapilOS
     ../Applications/Terminal/TerminalApp.cpp
     ../Applications/Calculator/CalculatorApp.cpp
     ../Core/CalculatorEngine/CalculatorEngine.cpp
+    ../Applications/Browser/BrowserApp.cpp
+    ../Core/BrowserEngine/BrowserEngine.cpp
 
 
     ../AssetManager/AssetManager.cpp
