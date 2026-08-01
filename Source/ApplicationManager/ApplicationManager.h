@@ -10,7 +10,9 @@ class FileExplorerApp;
 class SettingsApp;
 class CodeEditorApp;
 class CalculatorApp;
+class BrowserApp;
 class ApplicationManager
+
 {
 public:
 
@@ -44,6 +46,7 @@ private:
     std::unique_ptr<CodeEditorApp> codeEditor;
     std::unique_ptr<TerminalApp> terminal;
     std::unique_ptr<CalculatorApp> calculator;
+    std::unique_ptr<BrowserApp> browser;
 };
 
 #endif

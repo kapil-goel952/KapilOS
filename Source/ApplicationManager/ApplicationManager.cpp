@@ -1,9 +1,11 @@
+
 #include <cstdlib>
 #include "ApplicationManager.h"
 #include "../Applications/Calculator/CalculatorApp.h"
 #include "../Applications/FileExplorer/FileExplorerApp.h"
 #include "../Applications/Settings/SettingsApp.h"
 #include "../Applications/CodeEditor/CodeEditorApp.h"
+#include "../Applications/Browser/BrowserApp.h"
 
 ApplicationManager::ApplicationManager()
 {
@@ -16,6 +18,8 @@ ApplicationManager::ApplicationManager()
     terminal = std::make_unique<TerminalApp>();
 
     calculator = std::make_unique<CalculatorApp>();
+
+    browser = std::make_unique<BrowserApp>();
 }
 
 ApplicationManager::~ApplicationManager() = default;
@@ -29,9 +33,10 @@ void ApplicationManager::OpenSettings()
 {
     settings->Open();
 }
+
 void ApplicationManager::OpenBrowser()
 {
-    std::system("/opt/firefox/firefox >/dev/null 2>&1 &");
+    browser->Open();
 }
 
 void ApplicationManager::OpenTerminal()
@@ -81,4 +86,10 @@ void ApplicationManager::Draw()
     {
         calculator->Draw();
     }
+
+    if(browser->IsOpen())
+    {
+        browser->Draw();
+    }
+
 }
