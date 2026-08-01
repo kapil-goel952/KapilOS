@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kapil849/Projects/KapilOS/Source/Core/CalculatorEngine/CalculatorEngine.cpp" "CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Core/Config.cpp" "CMakeFiles/KapilOS.dir/Config.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/Config.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Core/Logger.cpp" "CMakeFiles/KapilOS.dir/Logger.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/Logger.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Core/Shell/Shell.cpp" "CMakeFiles/KapilOS.dir/Shell/Shell.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/Shell/Shell.cpp.o.d"
@@ -15,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kapil849/Projects/KapilOS/Source/Core/Version.cpp" "CMakeFiles/KapilOS.dir/Version.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/Version.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/ApplicationManager.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.o.d"
+  "/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o.d"
   "/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o" "gcc" "CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.o.d"

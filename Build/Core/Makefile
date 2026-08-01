@@ -129,6 +129,30 @@ KapilOS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/build
 .PHONY : KapilOS/fast
 
+CalculatorEngine/CalculatorEngine.o: CalculatorEngine/CalculatorEngine.cpp.o
+.PHONY : CalculatorEngine/CalculatorEngine.o
+
+# target to build an object file
+CalculatorEngine/CalculatorEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.o
+.PHONY : CalculatorEngine/CalculatorEngine.cpp.o
+
+CalculatorEngine/CalculatorEngine.i: CalculatorEngine/CalculatorEngine.cpp.i
+.PHONY : CalculatorEngine/CalculatorEngine.i
+
+# target to preprocess a source file
+CalculatorEngine/CalculatorEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.i
+.PHONY : CalculatorEngine/CalculatorEngine.cpp.i
+
+CalculatorEngine/CalculatorEngine.s: CalculatorEngine/CalculatorEngine.cpp.s
+.PHONY : CalculatorEngine/CalculatorEngine.s
+
+# target to generate assembly for a file
+CalculatorEngine/CalculatorEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.s
+.PHONY : CalculatorEngine/CalculatorEngine.cpp.s
+
 Config.o: Config.cpp.o
 .PHONY : Config.o
 
@@ -296,6 +320,30 @@ home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s: ho
 home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o: home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.i: home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.s: home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.s
 
 home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o: home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o
@@ -1002,6 +1050,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KapilOS"
+	@echo "... CalculatorEngine/CalculatorEngine.o"
+	@echo "... CalculatorEngine/CalculatorEngine.i"
+	@echo "... CalculatorEngine/CalculatorEngine.s"
 	@echo "... Config.o"
 	@echo "... Config.i"
 	@echo "... Config.s"
@@ -1023,6 +1074,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.s"

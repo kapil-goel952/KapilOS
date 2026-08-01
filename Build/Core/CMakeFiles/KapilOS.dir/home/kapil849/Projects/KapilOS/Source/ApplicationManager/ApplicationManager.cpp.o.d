@@ -161,6 +161,10 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/ApplicationManager/
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
  /home/kapil849/Projects/KapilOS/Source/ApplicationManager/../Applications/Application/Application.h \
+ /home/kapil849/Projects/KapilOS/Source/ApplicationManager/../Applications/Calculator/CalculatorApp.h \
+ /home/kapil849/Projects/KapilOS/Source/ApplicationManager/../Applications/Calculator/../Application/Application.h \
+ /home/kapil849/Projects/KapilOS/Source/ApplicationManager/../Applications/Calculator/../../UI/Window/WindowUI.h \
+ /home/kapil849/Projects/KapilOS/Source/ApplicationManager/../Applications/Calculator/../../Core/CalculatorEngine/CalculatorEngine.h \
  /home/kapil849/Projects/KapilOS/Source/ApplicationManager/../Applications/FileExplorer/FileExplorerApp.h \
  /home/kapil849/Projects/KapilOS/Source/ApplicationManager/../Applications/FileExplorer/../Application/Application.h \
  /home/kapil849/Projects/KapilOS/Source/ApplicationManager/../Applications/FileExplorer/../../UI/Window/WindowUI.h \
