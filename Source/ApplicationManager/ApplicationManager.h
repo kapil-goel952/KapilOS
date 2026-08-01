@@ -1,3 +1,4 @@
+#include "../Applications/Terminal/TerminalApp.h"
 #ifndef APPLICATION_MANAGER_H
 #define APPLICATION_MANAGER_H
 
@@ -8,7 +9,7 @@
 class FileExplorerApp;
 class SettingsApp;
 class CodeEditorApp;
-
+class CalculatorApp;
 class ApplicationManager
 {
 public:
@@ -39,9 +40,10 @@ public:
 private:
 
     std::unique_ptr<FileExplorerApp> fileExplorer;
-
     std::unique_ptr<SettingsApp> settings;
     std::unique_ptr<CodeEditorApp> codeEditor;
+    std::unique_ptr<TerminalApp> terminal;
+    std::unique_ptr<CalculatorApp> calculator;
 };
 
 #endif

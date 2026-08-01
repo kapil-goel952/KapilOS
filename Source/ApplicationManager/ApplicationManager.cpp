@@ -1,6 +1,6 @@
 #include <cstdlib>
 #include "ApplicationManager.h"
-
+#include "../Applications/Calculator/CalculatorApp.h"
 #include "../Applications/FileExplorer/FileExplorerApp.h"
 #include "../Applications/Settings/SettingsApp.h"
 #include "../Applications/CodeEditor/CodeEditorApp.h"
@@ -12,6 +12,10 @@ ApplicationManager::ApplicationManager()
     settings = std::make_unique<SettingsApp>();
 
     codeEditor = std::make_unique<CodeEditorApp>();
+
+    terminal = std::make_unique<TerminalApp>();
+
+    calculator = std::make_unique<CalculatorApp>();
 }
 
 ApplicationManager::~ApplicationManager() = default;
@@ -32,7 +36,7 @@ void ApplicationManager::OpenBrowser()
 
 void ApplicationManager::OpenTerminal()
 {
-    std::system("gnome-terminal &");
+    terminal->Open();
 }
 
 void ApplicationManager::OpenCodeEditor()
@@ -42,7 +46,7 @@ void ApplicationManager::OpenCodeEditor()
 
 void ApplicationManager::OpenCalculator()
 {
-    std::system("gnome-calculator &");
+    calculator->Open();
 }
 
 void ApplicationManager::OpenMusic()
@@ -66,5 +70,15 @@ void ApplicationManager::Draw()
     if(codeEditor->IsOpen())
     {
         codeEditor->Draw();
+    }
+
+    if(terminal->IsOpen())
+    {
+        terminal->Draw();
+    }
+
+    if(calculator->IsOpen())
+    {
+        calculator->Draw();
     }
 }

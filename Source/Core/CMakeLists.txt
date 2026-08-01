@@ -47,6 +47,7 @@ add_executable(KapilOS
     ../UI/Widgets/Calendar/CalendarWidget.cpp
     ../UI/Widgets/Status/StatusWidget.cpp
 
+
     ../../ThirdParty/imgui/backends/imgui_impl_sdl2.cpp
     ../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.cpp
     ../ApplicationManager/ApplicationManager.cpp
@@ -55,6 +56,8 @@ add_executable(KapilOS
     ../Applications/Settings/SettingsApp.cpp
     ../Applications/CodeEditor/CodeEditorApp.cpp
     ../Applications/Terminal/TerminalApp.cpp
+    ../Applications/Calculator/CalculatorApp.cpp
+    ../Core/CalculatorEngine/CalculatorEngine.cpp
 
 
     ../AssetManager/AssetManager.cpp
