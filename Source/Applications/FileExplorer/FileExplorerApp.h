@@ -101,6 +101,11 @@ private:
     std::size_t folderCount = 0;
 
     std::size_t fileCount = 0;
+
+
+    float itemPadding = 16.0f;
+
+    bool showHiddenFiles = false;
 };
 
 #endif
