@@ -88,9 +88,7 @@ private:
 
     float itemSpacing = 18.0f;
 
-    float itemPadding = 16.0f;
 
-    bool showHiddenFiles = false;
 
 
     //--------------------------------

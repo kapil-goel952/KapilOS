@@ -1,0 +1,6 @@
+# CEF binaries
+ThirdParty/CEF/Debug/
+ThirdParty/CEF/Release/
+
+*.so
+
