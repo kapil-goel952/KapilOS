@@ -272,26 +272,29 @@ void FileExplorerApp::DrawExplorer()
 
         ImGui::PushID((int)i);
 
-        if(selectedIndex == (int)i)
-        {
-            ImGui::PushStyleColor(
-                ImGuiCol_Button,
-                ImVec4(0.20f,0.45f,0.90f,0.80f)
-            );
-        }
+bool selected =
+    (selectedIndex == (int)i);
 
-        if(ImGui::Button(
-            icon,
-            ImVec2(iconSize, iconSize)
-        ))
-        {
-            selectedIndex = (int)i;
-        }
+    if(selected)
+    {
+        ImGui::PushStyleColor(
+            ImGuiCol_Button,
+            ImVec4(0.20f,0.45f,0.90f,0.80f)
+        );
+    }
 
-        if(selectedIndex == (int)i)
-        {
-            ImGui::PopStyleColor();
-        }
+    if(ImGui::Button(
+        icon,
+        ImVec2(iconSize, iconSize)
+    ))
+    {
+        selectedIndex = (int)i;
+    }
+
+    if(selected)
+    {
+        ImGui::PopStyleColor();
+    }
 
         if(ImGui::IsItemHovered() &&
            ImGui::IsMouseDoubleClicked(ImGuiMouseButton_Left))
