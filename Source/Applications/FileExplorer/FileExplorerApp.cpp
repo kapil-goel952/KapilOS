@@ -152,19 +152,29 @@ void FileExplorerApp::DrawToolbar()
 
     ImGui::SameLine();
 
-    std::string path =
-        currentDirectory.string();
+    char pathBuffer[1024];
+
+    snprintf(
+        pathBuffer,
+        sizeof(pathBuffer),
+        "%s",
+        currentDirectory.string().c_str()
+    );
 
     ImGui::SetNextItemWidth(
         ImGui::GetContentRegionAvail().x - 220
     );
 
+
+
     ImGui::InputText(
         "##Path",
-        path.data(),
-        path.capacity() + 1,
+        pathBuffer,
+        sizeof(pathBuffer),
         ImGuiInputTextFlags_ReadOnly
     );
+
+
 
     ImGui::SameLine();
 
@@ -188,21 +198,49 @@ void FileExplorerApp::DrawSidebar()
 void FileExplorerApp::DrawExplorer()
 {
     ImGui::BeginChild(
-        "Explorer",
-        ImVec2(0,0),
-        false
+        "ExplorerArea",
+        ImVec2(0, 0),
+        true
     );
+
+    float cellSize =
+        iconSize + itemPadding;
+
+    float width =
+        ImGui::GetContentRegionAvail().x;
+
+    int columns =
+        std::max(
+            1,
+            (int)(width / cellSize)
+        );
+
+    ImGui::Columns(columns, nullptr, false);
+
+    std::filesystem::path folderToOpen;
+    bool shouldOpenFolder = false;
 
     for(size_t i = 0; i < entries.size(); i++)
     {
         const auto& entry = entries[i];
 
-        std::string name =
+        if(!showHiddenFiles)
+        {
+            std::string name =
+                entry.path().filename().string();
+
+            if(!name.empty() && name[0] == '.')
+            {
+                continue;
+            }
+        }
+
+        std::string filename =
             entry.path().filename().string();
 
         if(searchBuffer[0] != '\0')
         {
-            std::string lowerName = name;
+            std::string lowerName = filename;
             std::string lowerSearch = searchBuffer;
 
             std::transform(
@@ -219,40 +257,73 @@ void FileExplorerApp::DrawExplorer()
                 ::tolower
             );
 
-            if(lowerName.find(lowerSearch)
-                ==
-                std::string::npos)
+            if(lowerName.find(lowerSearch) ==
+               std::string::npos)
             {
                 continue;
             }
         }
 
-        std::string label;
+        bool isFolder =
+            entry.is_directory();
 
-        if(entry.is_directory())
-            label = "[DIR] ";
-        else
-            label = "[FILE] ";
+        const char* icon =
+            isFolder ? "📁" : "📄";
 
-        label += name;
+        ImGui::PushID((int)i);
 
-        if(ImGui::Selectable(
-            label.c_str(),
-            selectedIndex == (int)i
+        if(selectedIndex == (int)i)
+        {
+            ImGui::PushStyleColor(
+                ImGuiCol_Button,
+                ImVec4(0.20f,0.45f,0.90f,0.80f)
+            );
+        }
+
+        if(ImGui::Button(
+            icon,
+            ImVec2(iconSize, iconSize)
         ))
         {
-            selectedIndex = i;
+            selectedIndex = (int)i;
+        }
 
-            if(entry.is_directory())
+        if(selectedIndex == (int)i)
+        {
+            ImGui::PopStyleColor();
+        }
+
+        if(ImGui::IsItemHovered() &&
+           ImGui::IsMouseDoubleClicked(ImGuiMouseButton_Left))
+        {
+            if(isFolder)
             {
-                OpenDirectory(entry.path());
+                folderToOpen = entry.path();
+                shouldOpenFolder = true;
             }
         }
+
+        ImGui::TextWrapped(
+            "%s",
+            filename.c_str()
+        );
+
+        ImGui::NextColumn();
+
+        ImGui::PopID();
     }
 
-    ImGui::EndChild();
-}
+    ImGui::Columns(1);
 
+    ImGui::EndChild();
+
+    // IMPORTANT:
+    // Open the folder AFTER the loop finishes.
+    if(shouldOpenFolder)
+    {
+        OpenDirectory(folderToOpen);
+    }
+}
 void FileExplorerApp::DrawStatusBar()
 {
     ImGui::Separator();
