@@ -20,8 +20,8 @@ void DesktopUI::Draw(
 
     ImGui::SetNextWindowSize(
         ImVec2(
-            screenWidth,
-            screenHeight
+            (float)screenWidth,
+            (float)screenHeight
         )
     );
 
@@ -31,30 +31,8 @@ void DesktopUI::Draw(
         flags
     );
 
-    ImGui::Dummy(
-        ImVec2(
-            20,
-            20
-        )
-    );
-
-    ImGui::Button(
-        "🖥 My Computer",
-        ImVec2(
-            150,
-            45
-        )
-    );
-
-    ImGui::Spacing();
-
-    ImGui::Button(
-        "⚙ Settings",
-        ImVec2(
-            150,
-            45
-        )
-    );
+    // Desktop is intentionally empty.
+    // Wallpaper is rendered by the Graphics engine.
 
     ImGui::End();
 }
