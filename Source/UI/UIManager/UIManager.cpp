@@ -1,160 +1,214 @@
+#include "../Widgets/Button/KapilButton.h"
 #include "../Layout/LayoutManager.h"
-#include "UIManager.h"
+#include "../Icon/IconManager.h"
+
+#include "SidebarUI.h"
+
 #include "../../../ThirdParty/imgui/imgui.h"
-UIManager::UIManager()
+
+void SidebarUI::Initialize(SDL_Renderer* renderer)
 {
+    this->renderer = renderer;
+
+    homeIcon       = IconManager::LoadIcon(renderer, "house");
+    searchIcon     = IconManager::LoadIcon(renderer, "search");
+    folderIcon     = IconManager::LoadIcon(renderer, "folder");
+    browserIcon    = IconManager::LoadIcon(renderer, "globe");
+    terminalIcon   = IconManager::LoadIcon(renderer, "terminal");
+    codeIcon       = IconManager::LoadIcon(renderer, "code");
+    settingsIcon   = IconManager::LoadIcon(renderer, "settings");
+    userIcon       = IconManager::LoadIcon(renderer, "user");
 }
 
-void UIManager::Initialize(SDL_Renderer* renderer)
+void SidebarUI::Draw(int screenHeight)
 {
-    dock.Initialize(renderer);
+    ImGuiWindowFlags flags =
+        ImGuiWindowFlags_NoDecoration |
+        ImGuiWindowFlags_NoMove |
+        ImGuiWindowFlags_NoResize |
+        ImGuiWindowFlags_NoScrollbar |
+        ImGuiWindowFlags_NoScrollWithMouse;
 
-    dock.SetLaunchCallback(
+    ImGui::SetNextWindowPos(ImVec2(12,60));
 
-        [this](const std::string& app)
-        {
-            if(app == "file")
-            {
-                applicationManager.OpenFileExplorer();
-            }
-
-            else if(app == "settings")
-            {
-                applicationManager.OpenSettings();
-            }
-
-            else if(app == "home")
-            {
-                // TODO
-            }
-
-            else if(app == "search")
-            {
-                // TODO
-            }
-
-            else if(app == "user")
-            {
-                // TODO
-            }
-	    else if(app == "browser")
-   	    {
-    	        applicationManager.OpenBrowser();
-    	    }
-
-   	    else if(app == "terminal")
-    	    {
-    	        applicationManager.OpenTerminal();
-   	    }
-
-
-
-	    else if(app == "calculator")
-    	    {
-    	        applicationManager.OpenCalculator();
-    	    }
-
-	    else if(app == "music")
-            {
-                applicationManager.OpenMusic();
-	    }
-
-	    else if(app == "code")
-		{
-                    applicationManager.OpenCodeEditor();
-            }
-        }
-
+    ImGui::SetNextWindowSize(
+        ImVec2(
+            82,
+            (float)screenHeight-140
+        )
     );
-}
-
-void UIManager::Draw(
-    int screenWidth,
-    int screenHeight
-)
-{
-    LayoutManager::Update(
-        screenWidth,
-        screenHeight
-    );
-
-    ImGuiWindowFlags dockspaceFlags =
-    ImGuiWindowFlags_NoDocking |
-    ImGuiWindowFlags_NoTitleBar |
-    ImGuiWindowFlags_NoCollapse |
-    ImGuiWindowFlags_NoResize |
-    ImGuiWindowFlags_NoMove |
-    ImGuiWindowFlags_NoBringToFrontOnFocus |
-    ImGuiWindowFlags_NoNavFocus |
-    ImGuiWindowFlags_NoBackground;
-
-    ImGuiViewport* viewport = ImGui::GetMainViewport();
-
-    ImGui::SetNextWindowPos(viewport->Pos);
-    ImGui::SetNextWindowSize(viewport->Size);
-    ImGui::SetNextWindowViewport(viewport->ID);
 
     ImGui::PushStyleVar(
         ImGuiStyleVar_WindowRounding,
-        0.0f
+        18.0f
     );
 
     ImGui::PushStyleVar(
-        ImGuiStyleVar_WindowBorderSize,
-        0.0f
+        ImGuiStyleVar_WindowPadding,
+        ImVec2(8,12)
     );
 
-    ImGui::SetNextWindowBgAlpha(0.0f);
+    ImGui::PushStyleColor(
+        ImGuiCol_WindowBg,
+        ImVec4(
+            0.10f,
+            0.10f,
+            0.12f,
+            0.92f
+        )
+    );
 
     ImGui::Begin(
-        "MainDockSpace",
+        "Sidebar",
         nullptr,
-        dockspaceFlags
+        flags
     );
 
-    ImGui::PopStyleVar(2);
+    //---------------------------------------
+    // HOME
+    //---------------------------------------
 
-    ImGui::DockSpace(
-        ImGui::GetID("KapilOSDockSpace"),
-        ImVec2(0.0f, 0.0f),
-        ImGuiDockNodeFlags_PassthruCentralNode
-    );
+    if(KapilButton::Draw(
+        "home",
+        homeIcon,
+        "Home",
+        60,
+        60,
+        selectedItem==0))
+    {
+        selectedItem=0;
+    }
 
-    desktop.Draw(
-        screenWidth,
-        screenHeight
-    );
+    ImGui::Dummy(ImVec2(0,8));
 
-    topBar.Draw(
-        screenWidth
-    );
+    //---------------------------------------
+    // SEARCH
+    //---------------------------------------
 
-    sidebar.Draw(
-        screenHeight
-    );
+    if(KapilButton::Draw(
+        "search",
+        searchIcon,
+        "Search",
+        60,
+        60,
+        selectedItem==1))
+    {
+        selectedItem=1;
+    }
 
-    dock.Draw(
-        screenWidth,
-        screenHeight
-    );
+    ImGui::Dummy(ImVec2(0,8));
 
-    weather.Draw(
-        screenWidth,
-        screenHeight
-    );
+    //---------------------------------------
+    // FILES
+    //---------------------------------------
 
-    calendar.Draw(
-        screenWidth,
-        screenHeight
-    );
+    if(KapilButton::Draw(
+        "files",
+        folderIcon,
+        "Files",
+        60,
+        60,
+        selectedItem==2))
+    {
+        selectedItem=2;
+    }
 
-    status.Draw(
-        screenWidth,
-        screenHeight
-    );
+    ImGui::Dummy(ImVec2(0,8));
 
+    //---------------------------------------
+    // BROWSER
+    //---------------------------------------
 
-    applicationManager.Draw();
+    if(KapilButton::Draw(
+        "browser",
+        browserIcon,
+        "Browser",
+        60,
+        60,
+        selectedItem==3))
+    {
+        selectedItem=3;
+    }
+
+    ImGui::Dummy(ImVec2(0,8));
+
+    //---------------------------------------
+    // TERMINAL
+    //---------------------------------------
+
+    if(KapilButton::Draw(
+        "terminal",
+        terminalIcon,
+        "Terminal",
+        60,
+        60,
+        selectedItem==4))
+    {
+        selectedItem=4;
+    }
+
+    ImGui::Dummy(ImVec2(0,8));
+
+    //---------------------------------------
+    // CODE
+    //---------------------------------------
+
+    if(KapilButton::Draw(
+        "code",
+        codeIcon,
+        "Code",
+        60,
+        60,
+        selectedItem==5))
+    {
+        selectedItem=5;
+    }
+
+    ImGui::Dummy(ImVec2(0,8));
+
+    //---------------------------------------
+    // SETTINGS
+    //---------------------------------------
+
+    if(KapilButton::Draw(
+        "settings",
+        settingsIcon,
+        "Settings",
+        60,
+        60,
+        selectedItem==6))
+    {
+        selectedItem=6;
+    }
+
+    //---------------------------------------
+    // PUSH PROFILE TO BOTTOM
+    //---------------------------------------
+
+    float remain =
+        ImGui::GetContentRegionAvail().y;
+
+    if(remain>80)
+        ImGui::Dummy(ImVec2(0,remain-70));
+
+    //---------------------------------------
+    // PROFILE
+    //---------------------------------------
+
+    if(KapilButton::Draw(
+        "profile",
+        userIcon,
+        "Profile",
+        60,
+        60,
+        selectedItem==7))
+    {
+        selectedItem=7;
+    }
 
     ImGui::End();
+
+    ImGui::PopStyleColor();
+
+    ImGui::PopStyleVar(2);
 }

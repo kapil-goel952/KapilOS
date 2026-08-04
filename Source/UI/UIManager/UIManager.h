@@ -1,46 +1,46 @@
+#ifndef SIDEBAR_UI_H
+#define SIDEBAR_UI_H
+
 #include <SDL2/SDL.h>
-#ifndef UI_MANAGER_H
-#define UI_MANAGER_H
-#include "../Widgets/Weather/WeatherWidget.h"
-#include "../Widgets/Calendar/CalendarWidget.h"
-#include "../Widgets/Status/StatusWidget.h"
-#include "../Desktop/DesktopUI.h"
-#include "../TopBar/TopBarUI.h"
-#include "../Sidebar/SidebarUI.h"
-#include "../Dock/DockUI.h"
 
-#include "../../ApplicationManager/ApplicationManager.h"
-
-class UIManager
+class SidebarUI
 {
-
 public:
 
-    void Initialize(SDL_Renderer* renderer);
+    void Initialize(
+        SDL_Renderer* renderer
+    );
 
     void Draw(
-        int screenWidth,
         int screenHeight
     );
 
-    UIManager();
-
 private:
-    WeatherWidget weather;
 
-    CalendarWidget calendar;
+    //----------------------------------------
+    // Renderer
+    //----------------------------------------
 
-    StatusWidget status;
+    SDL_Renderer* renderer = nullptr;
 
-    DesktopUI desktop;
+    //----------------------------------------
+    // Cached Icons
+    //----------------------------------------
 
-    TopBarUI topBar;
+    SDL_Texture* homeIcon      = nullptr;
+    SDL_Texture* searchIcon    = nullptr;
+    SDL_Texture* folderIcon    = nullptr;
+    SDL_Texture* browserIcon   = nullptr;
+    SDL_Texture* terminalIcon  = nullptr;
+    SDL_Texture* codeIcon      = nullptr;
+    SDL_Texture* settingsIcon  = nullptr;
+    SDL_Texture* userIcon      = nullptr;
 
-    SidebarUI sidebar;
+    //----------------------------------------
+    // UI State
+    //----------------------------------------
 
-    DockUI dock;
-
-    ApplicationManager applicationManager;
+    int selectedItem = 0;
 };
 
 #endif
