@@ -1,3 +1,5 @@
+// file manager file .cpp usinf imgui file dialog for the file manager
+
 #include "FileExplorerApp.h"
 
 #include "../../../ThirdParty/imgui/imgui.h"
