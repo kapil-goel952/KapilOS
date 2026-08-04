@@ -333,6 +333,9 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/Theme/../../../ThirdParty/imgui/imconfig.h \
  /usr/include/assert.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/Icon/IconManager.h \
+ /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../../ThirdParty/imgui/backends/imgui_impl_sdl2.h \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h \
@@ -350,7 +353,4 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/SDL2/SDL_image.h \
- /usr/include/SDL2/SDL.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../../ThirdParty/imgui/backends/imgui_impl_sdl2.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../../ThirdParty/imgui/backends/imgui_impl_sdlrenderer2.h
+ /usr/include/c++/13/bits/istream.tcc

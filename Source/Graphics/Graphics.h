@@ -33,7 +33,6 @@ private:
 
     SDL_Texture* m_wallpaper = nullptr;
 
-    SDL_Texture* m_homeIcon = nullptr;
 
     //----------------------------------------
     // Internal Rendering

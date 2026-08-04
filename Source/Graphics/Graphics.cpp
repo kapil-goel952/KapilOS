@@ -121,27 +121,12 @@ bool Graphics::Initialize()
     // Icons
     //----------------------------------------------------
 
-    m_homeIcon =
-        IconManager::LoadIcon(
-            m_renderer,
-            "house"
-        );
+    IconManager::Initialize(
+        m_renderer
+    );
 
-    if (!m_homeIcon)
-    {
-        std::cout
-            << "Home Icon Failed\n";
-    }
-    else
-    {
-        std::cout
-            << "Home Icon Loaded\n";
-
-	 SDL_SetTextureBlendMode(
-            m_homeIcon,
-            SDL_BLENDMODE_BLEND
-        );
-    }
+    std::cout
+        << "Icons Cached\n";
 
     //----------------------------------------------------
     // ImGui
@@ -276,12 +261,7 @@ void Graphics::Shutdown()
             m_wallpaper
         );
     }
-    if(m_homeIcon)
-    {
-        SDL_DestroyTexture(
-            m_homeIcon
-        );
-    }
+    IconManager::Shutdown();
 
     ImGui_ImplSDLRenderer2_Shutdown();
 
