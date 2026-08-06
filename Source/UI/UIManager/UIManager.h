@@ -1,3 +1,4 @@
+#include <functional>
 #ifndef SIDEBAR_UI_H
 #define SIDEBAR_UI_H
 
@@ -13,6 +14,10 @@ public:
 
     void Draw(
         int screenHeight
+    );
+
+    void SetLaunchCallback(
+        std::function<void(const std::string&)> callback
     );
 
 private:
@@ -39,6 +44,7 @@ private:
     //----------------------------------------
     // UI State
     //----------------------------------------
+    std::function<void(const std::string&)> launchCallback;
 
     int selectedItem = 0;
 };

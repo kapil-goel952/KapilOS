@@ -20,6 +20,15 @@ void SidebarUI::Initialize(SDL_Renderer* renderer)
     userIcon       = IconManager::LoadIcon(renderer, "user");
 }
 
+
+void SidebarUI::SetLaunchCallback(
+    std::function<void(const std::string&)> callback
+)
+{
+    launchCallback = std::move(callback);
+}
+
+
 void SidebarUI::Draw(int screenHeight)
 {
     ImGuiWindowFlags flags =

@@ -129,6 +129,54 @@ KapilOS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/build
 .PHONY : KapilOS/fast
 
+BrowserEngine/BrowserEngine.o: BrowserEngine/BrowserEngine.cpp.o
+.PHONY : BrowserEngine/BrowserEngine.o
+
+# target to build an object file
+BrowserEngine/BrowserEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/BrowserEngine/BrowserEngine.cpp.o
+.PHONY : BrowserEngine/BrowserEngine.cpp.o
+
+BrowserEngine/BrowserEngine.i: BrowserEngine/BrowserEngine.cpp.i
+.PHONY : BrowserEngine/BrowserEngine.i
+
+# target to preprocess a source file
+BrowserEngine/BrowserEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/BrowserEngine/BrowserEngine.cpp.i
+.PHONY : BrowserEngine/BrowserEngine.cpp.i
+
+BrowserEngine/BrowserEngine.s: BrowserEngine/BrowserEngine.cpp.s
+.PHONY : BrowserEngine/BrowserEngine.s
+
+# target to generate assembly for a file
+BrowserEngine/BrowserEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/BrowserEngine/BrowserEngine.cpp.s
+.PHONY : BrowserEngine/BrowserEngine.cpp.s
+
+CalculatorEngine/CalculatorEngine.o: CalculatorEngine/CalculatorEngine.cpp.o
+.PHONY : CalculatorEngine/CalculatorEngine.o
+
+# target to build an object file
+CalculatorEngine/CalculatorEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.o
+.PHONY : CalculatorEngine/CalculatorEngine.cpp.o
+
+CalculatorEngine/CalculatorEngine.i: CalculatorEngine/CalculatorEngine.cpp.i
+.PHONY : CalculatorEngine/CalculatorEngine.i
+
+# target to preprocess a source file
+CalculatorEngine/CalculatorEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.i
+.PHONY : CalculatorEngine/CalculatorEngine.cpp.i
+
+CalculatorEngine/CalculatorEngine.s: CalculatorEngine/CalculatorEngine.cpp.s
+.PHONY : CalculatorEngine/CalculatorEngine.s
+
+# target to generate assembly for a file
+CalculatorEngine/CalculatorEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/CalculatorEngine/CalculatorEngine.cpp.s
+.PHONY : CalculatorEngine/CalculatorEngine.cpp.s
+
 Config.o: Config.cpp.o
 .PHONY : Config.o
 
@@ -152,6 +200,30 @@ Config.s: Config.cpp.s
 Config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Config.cpp.s
 .PHONY : Config.cpp.s
+
+Constants/UIConstants.o: Constants/UIConstants.cpp.o
+.PHONY : Constants/UIConstants.o
+
+# target to build an object file
+Constants/UIConstants.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Constants/UIConstants.cpp.o
+.PHONY : Constants/UIConstants.cpp.o
+
+Constants/UIConstants.i: Constants/UIConstants.cpp.i
+.PHONY : Constants/UIConstants.i
+
+# target to preprocess a source file
+Constants/UIConstants.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Constants/UIConstants.cpp.i
+.PHONY : Constants/UIConstants.cpp.i
+
+Constants/UIConstants.s: Constants/UIConstants.cpp.s
+.PHONY : Constants/UIConstants.s
+
+# target to generate assembly for a file
+Constants/UIConstants.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Constants/UIConstants.cpp.s
+.PHONY : Constants/UIConstants.cpp.s
 
 Desktop/DesktopUI.o: Desktop/DesktopUI.cpp.o
 .PHONY : Desktop/DesktopUI.o
@@ -201,6 +273,54 @@ Dock/DockUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Dock/DockUI.cpp.s
 .PHONY : Dock/DockUI.cpp.s
 
+Icon/IconManager.o: Icon/IconManager.cpp.o
+.PHONY : Icon/IconManager.o
+
+# target to build an object file
+Icon/IconManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Icon/IconManager.cpp.o
+.PHONY : Icon/IconManager.cpp.o
+
+Icon/IconManager.i: Icon/IconManager.cpp.i
+.PHONY : Icon/IconManager.i
+
+# target to preprocess a source file
+Icon/IconManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Icon/IconManager.cpp.i
+.PHONY : Icon/IconManager.cpp.i
+
+Icon/IconManager.s: Icon/IconManager.cpp.s
+.PHONY : Icon/IconManager.s
+
+# target to generate assembly for a file
+Icon/IconManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Icon/IconManager.cpp.s
+.PHONY : Icon/IconManager.cpp.s
+
+Icon/NanoSVG.o: Icon/NanoSVG.cpp.o
+.PHONY : Icon/NanoSVG.o
+
+# target to build an object file
+Icon/NanoSVG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Icon/NanoSVG.cpp.o
+.PHONY : Icon/NanoSVG.cpp.o
+
+Icon/NanoSVG.i: Icon/NanoSVG.cpp.i
+.PHONY : Icon/NanoSVG.i
+
+# target to preprocess a source file
+Icon/NanoSVG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Icon/NanoSVG.cpp.i
+.PHONY : Icon/NanoSVG.cpp.i
+
+Icon/NanoSVG.s: Icon/NanoSVG.cpp.s
+.PHONY : Icon/NanoSVG.s
+
+# target to generate assembly for a file
+Icon/NanoSVG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Icon/NanoSVG.cpp.s
+.PHONY : Icon/NanoSVG.cpp.s
+
 Layout/LayoutManager.o: Layout/LayoutManager.cpp.o
 .PHONY : Layout/LayoutManager.o
 
@@ -248,6 +368,30 @@ Logger.s: Logger.cpp.s
 Logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
+
+Shell/Shell.o: Shell/Shell.cpp.o
+.PHONY : Shell/Shell.o
+
+# target to build an object file
+Shell/Shell.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Shell/Shell.cpp.o
+.PHONY : Shell/Shell.cpp.o
+
+Shell/Shell.i: Shell/Shell.cpp.i
+.PHONY : Shell/Shell.i
+
+# target to preprocess a source file
+Shell/Shell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Shell/Shell.cpp.i
+.PHONY : Shell/Shell.cpp.i
+
+Shell/Shell.s: Shell/Shell.cpp.s
+.PHONY : Shell/Shell.s
+
+# target to generate assembly for a file
+Shell/Shell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Shell/Shell.cpp.s
+.PHONY : Shell/Shell.cpp.s
 
 Sidebar/SidebarUI.o: Sidebar/SidebarUI.cpp.o
 .PHONY : Sidebar/SidebarUI.o
@@ -393,6 +537,30 @@ Version.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Version.cpp.s
 .PHONY : Version.cpp.s
 
+Widgets/Button/KapilButton.o: Widgets/Button/KapilButton.cpp.o
+.PHONY : Widgets/Button/KapilButton.o
+
+# target to build an object file
+Widgets/Button/KapilButton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Widgets/Button/KapilButton.cpp.o
+.PHONY : Widgets/Button/KapilButton.cpp.o
+
+Widgets/Button/KapilButton.i: Widgets/Button/KapilButton.cpp.i
+.PHONY : Widgets/Button/KapilButton.i
+
+# target to preprocess a source file
+Widgets/Button/KapilButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Widgets/Button/KapilButton.cpp.i
+.PHONY : Widgets/Button/KapilButton.cpp.i
+
+Widgets/Button/KapilButton.s: Widgets/Button/KapilButton.cpp.s
+.PHONY : Widgets/Button/KapilButton.s
+
+# target to generate assembly for a file
+Widgets/Button/KapilButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/Widgets/Button/KapilButton.cpp.s
+.PHONY : Widgets/Button/KapilButton.cpp.s
+
 Widgets/Calendar/CalendarWidget.o: Widgets/Calendar/CalendarWidget.cpp.o
 .PHONY : Widgets/Calendar/CalendarWidget.o
 
@@ -537,6 +705,78 @@ home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.o: home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.i: home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.s: home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o: home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.i: home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.s: home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.cpp.s
+
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o: home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.i: home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.s: home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o: home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o
 
@@ -585,6 +825,30 @@ home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.o: home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.i: home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.s: home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o: home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o
 
@@ -632,6 +896,30 @@ home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.s: home/kapil849/Project
 home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.cpp.s
+
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.o: home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.o
+
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.i: home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.i
+
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.s: home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.cpp.s
 
 home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o: home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o
@@ -810,21 +1098,39 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KapilOS"
+	@echo "... BrowserEngine/BrowserEngine.o"
+	@echo "... BrowserEngine/BrowserEngine.i"
+	@echo "... BrowserEngine/BrowserEngine.s"
+	@echo "... CalculatorEngine/CalculatorEngine.o"
+	@echo "... CalculatorEngine/CalculatorEngine.i"
+	@echo "... CalculatorEngine/CalculatorEngine.s"
 	@echo "... Config.o"
 	@echo "... Config.i"
 	@echo "... Config.s"
+	@echo "... Constants/UIConstants.o"
+	@echo "... Constants/UIConstants.i"
+	@echo "... Constants/UIConstants.s"
 	@echo "... Desktop/DesktopUI.o"
 	@echo "... Desktop/DesktopUI.i"
 	@echo "... Desktop/DesktopUI.s"
 	@echo "... Dock/DockUI.o"
 	@echo "... Dock/DockUI.i"
 	@echo "... Dock/DockUI.s"
+	@echo "... Icon/IconManager.o"
+	@echo "... Icon/IconManager.i"
+	@echo "... Icon/IconManager.s"
+	@echo "... Icon/NanoSVG.o"
+	@echo "... Icon/NanoSVG.i"
+	@echo "... Icon/NanoSVG.s"
 	@echo "... Layout/LayoutManager.o"
 	@echo "... Layout/LayoutManager.i"
 	@echo "... Layout/LayoutManager.s"
 	@echo "... Logger.o"
 	@echo "... Logger.i"
 	@echo "... Logger.s"
+	@echo "... Shell/Shell.o"
+	@echo "... Shell/Shell.i"
+	@echo "... Shell/Shell.s"
 	@echo "... Sidebar/SidebarUI.o"
 	@echo "... Sidebar/SidebarUI.i"
 	@echo "... Sidebar/SidebarUI.s"
@@ -843,6 +1149,9 @@ help:
 	@echo "... Version.o"
 	@echo "... Version.i"
 	@echo "... Version.s"
+	@echo "... Widgets/Button/KapilButton.o"
+	@echo "... Widgets/Button/KapilButton.i"
+	@echo "... Widgets/Button/KapilButton.s"
 	@echo "... Widgets/Calendar/CalendarWidget.o"
 	@echo "... Widgets/Calendar/CalendarWidget.i"
 	@echo "... Widgets/Calendar/CalendarWidget.s"
@@ -861,18 +1170,33 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Application/Application.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Browser/BrowserApp.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Calculator/CalculatorApp.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/CodeEditor/CodeEditorApp.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/FileExplorer/FileExplorerApp.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Settings/SettingsApp.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/Applications/Terminal/TerminalApp.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/AssetManager/AssetManager.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.s"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.o"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.i"
+	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/ImGuiColorTextEdit/TextEditor.s"
 	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.o"
 	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.i"
 	@echo "... home/kapil849/Projects/KapilOS/ThirdParty/imgui/backends/imgui_impl_sdl2.s"

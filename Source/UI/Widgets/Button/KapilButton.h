@@ -1,4 +1,3 @@
-
 #ifndef KAPIL_BUTTON_H
 #define KAPIL_BUTTON_H
 
@@ -9,10 +8,6 @@ class KapilButton
 {
 public:
 
-    //--------------------------------------------------
-    // Icon Button
-    //--------------------------------------------------
-
     static bool Draw(
         const std::string& id,
         SDL_Texture* icon,
@@ -20,18 +15,6 @@ public:
         float width,
         float height,
         bool selected = false
-    );
-
-private:
-
-    static void DrawBackground(
-        bool hovered,
-        bool selected
-    );
-
-    static void DrawImage(
-        SDL_Texture* texture,
-        float size
     );
 };
 
