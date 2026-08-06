@@ -53,6 +53,15 @@ void SidebarUI::Draw(
         )
     );
 
+    float sidebarWidth =
+        LayoutManager::SidebarWidth();
+
+    float buttonSize =
+        sidebarWidth * 0.62f;
+
+    float spacing =
+        sidebarWidth * 0.12f;
+
     ImGui::PushStyleVar(
         ImGuiStyleVar_WindowRounding,
         18.0f
@@ -60,7 +69,10 @@ void SidebarUI::Draw(
 
     ImGui::PushStyleVar(
         ImGuiStyleVar_WindowPadding,
-        ImVec2(8, 12)
+        ImVec2(
+            (sidebarWidth - buttonSize) * 0.5f,
+            12.0f
+        )
     );
 
     ImGui::PushStyleColor(
@@ -87,8 +99,8 @@ void SidebarUI::Draw(
         "home",
         homeIcon,
         "Home",
-        60,
-        60,
+        buttonSize,
+        buttonSize,
         selectedItem == 0
     ))
     {
@@ -108,8 +120,8 @@ void SidebarUI::Draw(
         "search",
         searchIcon,
         "Search",
-        60,
-        60,
+    	buttonSize,
+ 	buttonSize,
         selectedItem == 1
     ))
     {
@@ -129,8 +141,8 @@ void SidebarUI::Draw(
         "files",
         folderIcon,
         "File Explorer",
-        60,
-        60,
+        buttonSize,
+	buttonSize,
         selectedItem == 2
     ))
     {
@@ -150,8 +162,8 @@ void SidebarUI::Draw(
         "browser",
         browserIcon,
         "Browser",
-        60,
-        60,
+        buttonSize,
+	buttonSize,
         selectedItem == 3
     ))
     {
@@ -171,8 +183,8 @@ void SidebarUI::Draw(
         "terminal",
         terminalIcon,
         "Terminal",
-        60,
-        60,
+        buttonSize,
+	buttonSize,
         selectedItem == 4
     ))
     {
@@ -192,8 +204,8 @@ void SidebarUI::Draw(
         "code",
         codeIcon,
         "Code Editor",
-        60,
-        60,
+        buttonSize,
+	buttonSize,
         selectedItem == 5
     ))
     {
@@ -213,8 +225,8 @@ void SidebarUI::Draw(
         "settings",
         settingsIcon,
         "Settings",
-        60,
-        60,
+        buttonSize,
+	buttonSize,
         selectedItem == 6
     ))
     {
@@ -246,8 +258,8 @@ void SidebarUI::Draw(
         "profile",
         userIcon,
         "Profile",
-        60,
-        60,
+        buttonSize,
+	buttonSize,
         selectedItem == 7
     ))
     {

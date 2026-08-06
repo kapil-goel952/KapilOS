@@ -32,11 +32,12 @@ bool KapilButton::Draw(
         );
     }
 
-    bool clicked =
-        ImGui::ImageButton(
-            (ImTextureID)icon,
-            ImVec2(width, height)
-        );
+   bool clicked =
+    ImGui::ImageButton(
+        id.c_str(),
+        (ImTextureRef)icon,
+        ImVec2(width, height)
+    );
 
     if(selected)
     {

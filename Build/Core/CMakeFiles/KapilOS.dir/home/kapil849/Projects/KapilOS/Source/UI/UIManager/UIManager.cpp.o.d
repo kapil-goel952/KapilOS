@@ -1,7 +1,6 @@
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp.o: \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.cpp \
  /usr/include/stdc-predef.h \
- /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Layout/LayoutManager.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIManager.h \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
@@ -228,13 +227,9 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h \
- /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Widgets/Weather/WeatherWidget.h \
- /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Widgets/Calendar/CalendarWidget.h \
- /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Widgets/Status/StatusWidget.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Desktop/DesktopUI.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../TopBar/TopBarUI.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Sidebar/SidebarUI.h \
- /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Dock/DockUI.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/stl_function.h \
  /usr/include/c++/13/backward/binders.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/uses_allocator.h \
@@ -289,6 +284,10 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Dock/DockUI.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Widgets/Weather/WeatherWidget.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Widgets/Calendar/CalendarWidget.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Widgets/Status/StatusWidget.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/ApplicationManager.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/../Applications/Terminal/TerminalApp.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/../Applications/Terminal/../Application/Application.h \
@@ -327,6 +326,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/../Applications/Application/Application.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Layout/LayoutManager.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../../ThirdParty/imgui/imgui.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../../ThirdParty/imgui/imconfig.h \
  /usr/include/assert.h

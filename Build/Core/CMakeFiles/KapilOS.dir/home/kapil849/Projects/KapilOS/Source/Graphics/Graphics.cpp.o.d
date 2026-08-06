@@ -228,13 +228,9 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Widgets/Weather/WeatherWidget.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Widgets/Calendar/CalendarWidget.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Widgets/Status/StatusWidget.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Desktop/DesktopUI.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../TopBar/TopBarUI.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Sidebar/SidebarUI.h \
- /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Dock/DockUI.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/stl_function.h \
  /usr/include/c++/13/backward/binders.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/uses_allocator.h \
@@ -289,6 +285,10 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/Graphics/Graphics.c
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Dock/DockUI.h \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Widgets/Weather/WeatherWidget.h \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Widgets/Calendar/CalendarWidget.h \
+ /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../Widgets/Status/StatusWidget.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/ApplicationManager.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Terminal/TerminalApp.h \
  /home/kapil849/Projects/KapilOS/Source/Graphics/../UI/UIManager/../../ApplicationManager/../Applications/Terminal/../Application/Application.h \
