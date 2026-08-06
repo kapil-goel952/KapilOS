@@ -1,52 +1,71 @@
-#include <functional>
-#ifndef SIDEBAR_UI_H
-#define SIDEBAR_UI_H
+#ifndef UI_MANAGER_H
+#define UI_MANAGER_H
 
 #include <SDL2/SDL.h>
 
-class SidebarUI
+#include "../Desktop/DesktopUI.h"
+#include "../TopBar/TopBarUI.h"
+#include "../Sidebar/SidebarUI.h"
+#include "../Dock/DockUI.h"
+
+#include "../Widgets/Weather/WeatherWidget.h"
+#include "../Widgets/Calendar/CalendarWidget.h"
+#include "../Widgets/Status/StatusWidget.h"
+
+#include "../../ApplicationManager/ApplicationManager.h"
+
+class UIManager
 {
 public:
+
+    UIManager();
+
+    //----------------------------------------
+    // Initialization
+    //----------------------------------------
 
     void Initialize(
         SDL_Renderer* renderer
     );
 
-    void Draw(
-        int screenHeight
-    );
+    //----------------------------------------
+    // Draw Everything
+    //----------------------------------------
 
-    void SetLaunchCallback(
-        std::function<void(const std::string&)> callback
+    void Draw(
+        int screenWidth,
+        int screenHeight
     );
 
 private:
 
     //----------------------------------------
-    // Renderer
+    // Desktop UI
     //----------------------------------------
 
-    SDL_Renderer* renderer = nullptr;
+    DesktopUI desktop;
+
+    TopBarUI topBar;
+
+    SidebarUI sidebar;
+
+    DockUI dock;
 
     //----------------------------------------
-    // Cached Icons
+    // Widgets
     //----------------------------------------
 
-    SDL_Texture* homeIcon      = nullptr;
-    SDL_Texture* searchIcon    = nullptr;
-    SDL_Texture* folderIcon    = nullptr;
-    SDL_Texture* browserIcon   = nullptr;
-    SDL_Texture* terminalIcon  = nullptr;
-    SDL_Texture* codeIcon      = nullptr;
-    SDL_Texture* settingsIcon  = nullptr;
-    SDL_Texture* userIcon      = nullptr;
+    WeatherWidget weather;
+
+    CalendarWidget calendar;
+
+    StatusWidget status;
 
     //----------------------------------------
-    // UI State
+    // Applications
     //----------------------------------------
-    std::function<void(const std::string&)> launchCallback;
 
-    int selectedItem = 0;
+    ApplicationManager applicationManager;
 };
 
 #endif
