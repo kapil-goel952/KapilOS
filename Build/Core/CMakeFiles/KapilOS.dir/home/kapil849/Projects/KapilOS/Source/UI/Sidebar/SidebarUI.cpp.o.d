@@ -1,6 +1,7 @@
 CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.o: \
  /home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp \
  /usr/include/stdc-predef.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/Sidebar/../Layout/UIStyle.h \
  /home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.h \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \

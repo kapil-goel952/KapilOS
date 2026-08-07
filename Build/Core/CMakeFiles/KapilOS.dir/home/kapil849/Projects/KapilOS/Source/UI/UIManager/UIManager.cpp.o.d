@@ -327,6 +327,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../ApplicationManager/../Applications/Application/Application.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Layout/LayoutManager.h \
+ /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../Layout/UIStyle.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../../ThirdParty/imgui/imgui.h \
  /home/kapil849/Projects/KapilOS/Source/UI/UIManager/../../../ThirdParty/imgui/imconfig.h \
  /usr/include/assert.h

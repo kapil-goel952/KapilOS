@@ -1,3 +1,4 @@
+#include "../Layout/UIStyle.h"
 #include "SidebarUI.h"
 
 #include "../Widgets/Button/KapilButton.h"
@@ -31,9 +32,7 @@ void SidebarUI::SetLaunchCallback(
     launchCallback = std::move(callback);
 }
 
-void SidebarUI::Draw(
-    int screenHeight
-)
+void SidebarUI::Draw()
 {
     ImGuiWindowFlags flags =
         ImGuiWindowFlags_NoDecoration |
@@ -43,18 +42,23 @@ void SidebarUI::Draw(
         ImGuiWindowFlags_NoScrollWithMouse;
 
     ImGui::SetNextWindowPos(
-        ImVec2(12, 60)
+        ImVec2(
+            UIStyle::SidebarPadding(),
+            UIStyle::TopBarHeight() + 10.0f
+        )
     );
 
     ImGui::SetNextWindowSize(
         ImVec2(
-            82,
-            (float)(screenHeight - 140)
+            UIStyle::SidebarWidth(),
+            UIStyle::ScreenHeight()
+            - UIStyle::TopBarHeight()
+            - 20.0f
         )
     );
 
     float sidebarWidth =
-        LayoutManager::SidebarWidth();
+    UIStyle::SidebarWidth();
 
     float buttonSize =
         sidebarWidth * 0.62f;
@@ -64,15 +68,15 @@ void SidebarUI::Draw(
 
     ImGui::PushStyleVar(
         ImGuiStyleVar_WindowRounding,
-        18.0f
+        UIStyle::SidebarRadius()
     );
 
     ImGui::PushStyleVar(
         ImGuiStyleVar_WindowPadding,
-        ImVec2(
-            (sidebarWidth - buttonSize) * 0.5f,
-            12.0f
-        )
+    	ImVec2(
+	    (sidebarWidth - buttonSize) * 0.5f,
+	    UIStyle::SidebarPadding()
+  	)
     );
 
     ImGui::PushStyleColor(
@@ -99,8 +103,8 @@ void SidebarUI::Draw(
         "home",
         homeIcon,
         "Home",
-        buttonSize,
-        buttonSize,
+        UIStyle::SidebarIconSize(),
+	UIStyle::SidebarIconSize(),
         selectedItem == 0
     ))
     {
@@ -110,7 +114,12 @@ void SidebarUI::Draw(
             launchCallback("home");
     }
 
-    ImGui::Dummy(ImVec2(0, 8));
+    ImGui::Dummy(
+        ImVec2(
+            0,
+            UIStyle::SidebarSpacing()
+        )
+    );
 
     //--------------------------------------------------
     // SEARCH
@@ -120,8 +129,8 @@ void SidebarUI::Draw(
         "search",
         searchIcon,
         "Search",
-    	buttonSize,
- 	buttonSize,
+    	UIStyle::SidebarIconSize(),
+	UIStyle::SidebarIconSize(),
         selectedItem == 1
     ))
     {
@@ -131,7 +140,12 @@ void SidebarUI::Draw(
             launchCallback("search");
     }
 
-    ImGui::Dummy(ImVec2(0, 8));
+    ImGui::Dummy(
+        ImVec2(
+            0,
+            UIStyle::SidebarSpacing()
+        )
+    );
 
     //--------------------------------------------------
     // FILES
@@ -141,8 +155,8 @@ void SidebarUI::Draw(
         "files",
         folderIcon,
         "File Explorer",
-        buttonSize,
-	buttonSize,
+        UIStyle::SidebarIconSize(),
+	UIStyle::SidebarIconSize(),
         selectedItem == 2
     ))
     {
@@ -152,7 +166,12 @@ void SidebarUI::Draw(
             launchCallback("file");
     }
 
-    ImGui::Dummy(ImVec2(0, 8));
+    ImGui::Dummy(
+        ImVec2(
+            0,
+            UIStyle::SidebarSpacing()
+        )
+    );
 
     //--------------------------------------------------
     // BROWSER
@@ -162,8 +181,8 @@ void SidebarUI::Draw(
         "browser",
         browserIcon,
         "Browser",
-        buttonSize,
-	buttonSize,
+        UIStyle::SidebarIconSize(),
+	UIStyle::SidebarIconSize(),
         selectedItem == 3
     ))
     {
@@ -173,7 +192,12 @@ void SidebarUI::Draw(
             launchCallback("browser");
     }
 
-    ImGui::Dummy(ImVec2(0, 8));
+    ImGui::Dummy(
+        ImVec2(
+            0,
+            UIStyle::SidebarSpacing()
+        )
+    );
 
     //--------------------------------------------------
     // TERMINAL
@@ -183,8 +207,8 @@ void SidebarUI::Draw(
         "terminal",
         terminalIcon,
         "Terminal",
-        buttonSize,
-	buttonSize,
+        UIStyle::SidebarIconSize(),
+	UIStyle::SidebarIconSize(),
         selectedItem == 4
     ))
     {
@@ -194,7 +218,12 @@ void SidebarUI::Draw(
             launchCallback("terminal");
     }
 
-    ImGui::Dummy(ImVec2(0, 8));
+    ImGui::Dummy(
+        ImVec2(
+            0,
+            UIStyle::SidebarSpacing()
+        )
+    );
 
     //--------------------------------------------------
     // CODE
@@ -204,8 +233,8 @@ void SidebarUI::Draw(
         "code",
         codeIcon,
         "Code Editor",
-        buttonSize,
-	buttonSize,
+        UIStyle::SidebarIconSize(),
+	UIStyle::SidebarIconSize(),
         selectedItem == 5
     ))
     {
@@ -215,7 +244,12 @@ void SidebarUI::Draw(
             launchCallback("code");
     }
 
-    ImGui::Dummy(ImVec2(0, 8));
+    ImGui::Dummy(
+        ImVec2(
+            0,
+            UIStyle::SidebarSpacing()
+        )
+    );
 
     //--------------------------------------------------
     // SETTINGS
@@ -225,8 +259,8 @@ void SidebarUI::Draw(
         "settings",
         settingsIcon,
         "Settings",
-        buttonSize,
-	buttonSize,
+        UIStyle::SidebarIconSize(),
+	UIStyle::SidebarIconSize(),
         selectedItem == 6
     ))
     {
@@ -243,10 +277,14 @@ void SidebarUI::Draw(
     float remain =
         ImGui::GetContentRegionAvail().y;
 
-    if(remain > 80)
+    if(
+        remain >
+        UIStyle::SidebarIconSize()
+        + UIStyle::SidebarSpacing()
+    )
     {
         ImGui::Dummy(
-            ImVec2(0, remain - 70)
+            ImVec2(0, remain -  UIStyle::SidebarIconSize()    -   UIStyle::SidebarSpacing())
         );
     }
 
@@ -258,8 +296,8 @@ void SidebarUI::Draw(
         "profile",
         userIcon,
         "Profile",
-        buttonSize,
-	buttonSize,
+        UIStyle::SidebarIconSize(),
+        UIStyle::SidebarIconSize(),
         selectedItem == 7
     ))
     {

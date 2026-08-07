@@ -4321,6 +4321,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarU
   /home/kapil849/Projects/KapilOS/ThirdParty/imgui/imgui.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.h \
+  /home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Widgets/Button/KapilButton.h \
   /home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.h \
   /usr/include/SDL2/SDL.h \
@@ -7895,6 +7896,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
 /usr/include/c++/13/bits/stl_deque.h:
 
 /usr/include/c++/13/bits/regex_scanner.h:
@@ -8086,8 +8089,6 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /home/kapil849/Projects/KapilOS/Source/UI/Window/WindowUI.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/c++/13/cctype:
 
@@ -8982,6 +8983,8 @@ CMakeFiles/KapilOS.dir/main.cpp.o: /home/kapil849/Projects/KapilOS/Source/Core/m
 /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.cpp:
 
 /home/kapil849/Projects/KapilOS/Source/UI/Icon/IconManager.cpp:
+
+/home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.h:
 
 /usr/include/stdint.h:
 

@@ -24,9 +24,7 @@ public:
     // Drawing
     //----------------------------------------
 
-    void Draw(
-        int screenHeight
-    );
+    void Draw(    );
 
     //----------------------------------------
     // Launch callback

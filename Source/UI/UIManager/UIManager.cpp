@@ -1,6 +1,7 @@
 #include "UIManager.h"
 
 #include "../Layout/LayoutManager.h"
+#include "../Layout/UIStyle.h"
 
 #include "../../../ThirdParty/imgui/imgui.h"
 
@@ -10,19 +11,10 @@ UIManager::UIManager()
 
 void UIManager::Initialize(SDL_Renderer* renderer)
 {
-    //--------------------------------------------------
-    // Initialize UI Components
-    //--------------------------------------------------
-
     dock.Initialize(renderer);
-
     sidebar.Initialize(renderer);
 
-    //--------------------------------------------------
-    // Dock Launch Callback
-    //--------------------------------------------------
-
-    dock.SetLaunchCallback(
+    sidebar.SetLaunchCallback(
 
         [this](const std::string& app)
         {
@@ -58,11 +50,7 @@ void UIManager::Initialize(SDL_Renderer* renderer)
 
     );
 
-    //--------------------------------------------------
-    // Sidebar Launch Callback
-    //--------------------------------------------------
-
-    sidebar.SetLaunchCallback(
+    dock.SetLaunchCallback(
 
         [this](const std::string& app)
         {
@@ -74,6 +62,18 @@ void UIManager::Initialize(SDL_Renderer* renderer)
             {
                 applicationManager.OpenSettings();
             }
+            else if(app == "home")
+            {
+                // TODO
+            }
+            else if(app == "search")
+            {
+                // TODO
+            }
+            else if(app == "user")
+            {
+                // TODO
+            }
             else if(app == "browser")
             {
                 applicationManager.OpenBrowser();
@@ -82,25 +82,17 @@ void UIManager::Initialize(SDL_Renderer* renderer)
             {
                 applicationManager.OpenTerminal();
             }
+            else if(app == "calculator")
+            {
+                applicationManager.OpenCalculator();
+            }
+            else if(app == "music")
+            {
+                applicationManager.OpenMusic();
+            }
             else if(app == "code")
             {
                 applicationManager.OpenCodeEditor();
-            }
-
-            //--------------------------------------------------
-            // Reserved for future implementation
-            //--------------------------------------------------
-
-            else if(app == "home")
-            {
-            }
-
-            else if(app == "search")
-            {
-            }
-
-            else if(app == "profile")
-            {
             }
         }
 
@@ -112,18 +104,15 @@ void UIManager::Draw(
     int screenHeight
 )
 {
-    //--------------------------------------------------
-    // Update Layout
-    //--------------------------------------------------
+    UIStyle::Update(
+        screenWidth,
+        screenHeight
+    );
 
     LayoutManager::Update(
         screenWidth,
         screenHeight
     );
-
-    //--------------------------------------------------
-    // Main DockSpace
-    //--------------------------------------------------
 
     ImGuiWindowFlags dockspaceFlags =
         ImGuiWindowFlags_NoDocking |
@@ -138,17 +127,9 @@ void UIManager::Draw(
     ImGuiViewport* viewport =
         ImGui::GetMainViewport();
 
-    ImGui::SetNextWindowPos(
-        viewport->Pos
-    );
-
-    ImGui::SetNextWindowSize(
-        viewport->Size
-    );
-
-    ImGui::SetNextWindowViewport(
-        viewport->ID
-    );
+    ImGui::SetNextWindowPos(viewport->Pos);
+    ImGui::SetNextWindowSize(viewport->Size);
+    ImGui::SetNextWindowViewport(viewport->ID);
 
     ImGui::PushStyleVar(
         ImGuiStyleVar_WindowRounding,
@@ -160,9 +141,7 @@ void UIManager::Draw(
         0.0f
     );
 
-    ImGui::SetNextWindowBgAlpha(
-        0.0f
-    );
+    ImGui::SetNextWindowBgAlpha(0.0f);
 
     ImGui::Begin(
         "MainDockSpace",
@@ -178,43 +157,21 @@ void UIManager::Draw(
         ImGuiDockNodeFlags_PassthruCentralNode
     );
 
-    //--------------------------------------------------
-    // Desktop
-    //--------------------------------------------------
-
     desktop.Draw(
         screenWidth,
         screenHeight
     );
 
-    //--------------------------------------------------
-    // Top Bar
-    //--------------------------------------------------
-
     topBar.Draw(
         screenWidth
     );
 
-    //--------------------------------------------------
-    // Sidebar
-    //--------------------------------------------------
-
-    sidebar.Draw(
-        screenHeight
-    );
-
-    //--------------------------------------------------
-    // Dock
-    //--------------------------------------------------
+    sidebar.Draw(    );
 
     dock.Draw(
         screenWidth,
         screenHeight
     );
-
-    //--------------------------------------------------
-    // Widgets
-    //--------------------------------------------------
 
     weather.Draw(
         screenWidth,
@@ -230,10 +187,6 @@ void UIManager::Draw(
         screenWidth,
         screenHeight
     );
-
-    //--------------------------------------------------
-    // Applications
-    //--------------------------------------------------
 
     applicationManager.Draw();
 
