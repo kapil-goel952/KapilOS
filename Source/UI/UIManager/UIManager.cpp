@@ -1,3 +1,4 @@
+//UI manager which handles all the desktop
 #include "UIManager.h"
 
 #include "../Layout/LayoutManager.h"
