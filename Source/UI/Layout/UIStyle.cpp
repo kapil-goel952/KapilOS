@@ -55,26 +55,23 @@ float UIStyle::SidebarWidth()
 
 float UIStyle::SidebarPadding()
 {
-    return SidebarWidth() * 0.12f;
+    return SidebarWidth() * 0.15f;
 }
 
 
 float UIStyle::SidebarSpacing()
 {
-    return SidebarWidth() * 0.12f;
+    return SidebarWidth() * 0.10f;
 }
 
 
 float UIStyle::SidebarRadius()
 {
-    return SidebarWidth() * 0.25f;
+    return SidebarWidth() * 0.23f;
 }
-
-
 float UIStyle::SidebarIconSize()
 {
-    return SidebarWidth()
-        - SidebarPadding() * 2.0f;
+    return SidebarWidth() * 0.40f;
 }
 
 
