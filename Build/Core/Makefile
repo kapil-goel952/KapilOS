@@ -681,6 +681,30 @@ home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.cpp.s
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.cpp.s
 
+home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.o: home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.o
+
+# target to build an object file
+home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.o
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.o
+
+home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.i: home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.i
+
+# target to preprocess a source file
+home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.i
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.i
+
+home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.s: home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.s
+
+# target to generate assembly for a file
+home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KapilOS.dir/build.make CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.s
+.PHONY : home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.cpp.s
+
 home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.o: home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.cpp.o
 .PHONY : home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.o
 
@@ -1167,6 +1191,9 @@ help:
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.s"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.o"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.i"
+	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.s"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.o"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.i"
 	@echo "... home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.s"

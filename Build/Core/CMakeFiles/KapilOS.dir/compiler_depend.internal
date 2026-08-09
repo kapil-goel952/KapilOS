@@ -4755,6 +4755,7 @@ CMakeFiles/KapilOS.dir/home/kapil849/Projects/KapilOS/Source/UI/UIManager/UIMana
  /home/kapil849/Projects/KapilOS/Source/UI/Desktop/DesktopUI.h
  /home/kapil849/Projects/KapilOS/Source/UI/Dock/DockUI.h
  /home/kapil849/Projects/KapilOS/Source/UI/Layout/LayoutManager.h
+ /home/kapil849/Projects/KapilOS/Source/UI/Layout/UIStyle.h
  /home/kapil849/Projects/KapilOS/Source/UI/Sidebar/SidebarUI.h
  /home/kapil849/Projects/KapilOS/Source/UI/TopBar/TopBarUI.h
  /home/kapil849/Projects/KapilOS/Source/UI/Widgets/Calendar/CalendarWidget.h
