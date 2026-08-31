@@ -4,3 +4,7 @@ ThirdParty/CEF/Release/
 
 *.so
 
+Build/
+ISO/
+KapilOS.iso
+ThirdParty/Linux/
